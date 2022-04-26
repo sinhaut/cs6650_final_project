@@ -2,6 +2,8 @@ import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import java.io.IOException;
+import java.rmi.registry.LocateRegistry;
+import java.rmi.registry.Registry;
 
 /**
  * Spider is a class that takes a given URL, and returns that URL with either a string http response,
@@ -49,6 +51,26 @@ public class Spider {
     public static void main(String[] args) throws IOException {
         Spider spider = new Spider();
         spider.crawl("https://en.wikipedia.org/wiki/Emmanuel_Macron");
+
+        // Establish a server connection given a host and port
+        //int port = Integer.parseInt(args[1]);
+        String host = "localhost";
+        int port = 1099;
+        if (args.length > 1) {
+            host = args[0];
+            port = Integer.parseInt(args[1]);
+        }
+
+        try {
+            Registry registry = LocateRegistry.getRegistry(host, port);
+            RMIImpl stub = (RMIImpl) registry.lookup("RMIImpl");
+            //TODO: do work on spider things using the stub
+        }
+        catch (Exception e) {
+            System.out.println("RMIClient exception: " + e.getMessage());
+            e.printStackTrace();
+        }
     }
+
 
 }
