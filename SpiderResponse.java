@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class SpiderResponse {
     private String incomingUrl;
     private ArrayList<String> outgoingUrls;
-    private int statusCode;
+    private Integer statusCode;
     private String result;
 
     public SpiderResponse(String incomingUrl) {
