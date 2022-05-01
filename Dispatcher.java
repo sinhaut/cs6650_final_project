@@ -2,6 +2,7 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.rmi.AlreadyBoundException;
 import java.rmi.RemoteException;
 import java.rmi.server.UnicastRemoteObject;
 import java.rmi.registry.Registry;
@@ -10,6 +11,10 @@ import java.util.*;
 import java.util.concurrent.*;
 import java.sql.Timestamp;
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
+
+import static java.lang.Thread.sleep;
 
 public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     public static final String coordinatorLogFilePath = "coordinatorLogs.txt";
@@ -23,23 +28,24 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     /*
     * Coordinator constructor initializes 5 participant servers and stores them in list.
     * */
-    public Dispatcher() throws RemoteException {
+    public Dispatcher() throws RemoteException, AlreadyBoundException {
         super();
-        Spider s1 = new Spider();
-        Spider s2 = new Spider();
-        Spider s3 = new Spider();
-        Spider s4 = new Spider();
-        Spider s5 = new Spider();
-        spiders.add(s1);
-        spiders.add(s2);
-        spiders.add(s3);
-        spiders.add(s4);
-        spiders.add(s5);
+        populateSpiders();
         queueOfLinksToCrawl = new LinkedList<>();
         visitedLinks = new ArrayList<>();
         blacklistedLinks = new ArrayList<>();
         spiderToLinkMap = new HashMap<>();
         setOfFailedLinks = new HashSet<>();
+    }
+
+    public void populateSpiders() throws RemoteException, AlreadyBoundException {
+        int numSpiders = 5;
+//        Registry registry =  LocateRegistry.getRegistry(PORT);
+        for(int i =0; i < numSpiders; i ++){
+            Spider spider = new Spider();
+            spiders.add(spider);
+//            registry.bind("Spider/"+i, spider);
+        }
     }
 
     /**
@@ -57,7 +63,15 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
      Add the current link that spider is crawling back to the queueOfLinksToCrawl
      * */
     public void ensureSpidersAreAlive() throws RemoteException {
+        int total = 0;
+        int count = 0;
         for (Spider s: spiders) {
+            boolean alive = s.spiderIsAlive();
+            if (alive==true){
+                count ++;
+                System.out.println("alive");
+            }
+            total ++;
             //TODO: figure out how to check that spider responds
             //TODO: set a timeout and if it doesn't respond in the timeout, make a new spider
             //TODO: failed spider's link gets added to the queue again (doesn't get added to the queue)
@@ -112,24 +126,33 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
      * */
     public String getLinkToCrawl() throws RemoteException {
         // TODO: lock the queue so 1 spider accesses at a time
+//        Lock lock = new ReentrantLock();
+//        lock.lock();
+
+
         String topLink = queueOfLinksToCrawl.remove();
         visitedLinks.add(topLink);
         // TODO: add to the spiderToLink hashmap with the spider and the link.
+//        lock.unlock();
+
         return topLink;
     }
 
-    public static void main(String[] args) throws RemoteException{
+    public static void main(String[] args) throws RemoteException, AlreadyBoundException {
         int port = PORT;
         if (args.length > 0) {
             port = Integer.parseInt(args[0]);
         }
-
         Dispatcher dispatcher = new Dispatcher();
 
         try {
-            Registry registry = LocateRegistry.getRegistry(port);
+            Registry registry = LocateRegistry.createRegistry(port);
             registry.bind("RMIImpl", dispatcher);
             System.out.println("Dispatcher bound to RMI listening to port: " + port);
+            while (true){
+                dispatcher.ensureSpidersAreAlive();
+                TimeUnit.SECONDS.sleep(1);
+            }
         } catch (Exception e) {
             System.out.println("Failure: " + e.getMessage());
             e.printStackTrace();
