@@ -29,6 +29,10 @@ public class Spider implements SpiderImpl{
         SpiderResponse resp = new SpiderResponse(incomingUrl);
         try {
             Document doc = Jsoup.connect(incomingUrl).get();
+<<<<<<< Updated upstream
+=======
+            //  System.out.println(doc.text());
+>>>>>>> Stashed changes
             // set up spider responses.
             resp.setResult(doc.html());
              ArrayList<String> tempUrls = new ArrayList<String>();
