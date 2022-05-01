@@ -51,6 +51,7 @@ public class Spider implements SpiderImpl{
 
     public static void main(String[] args) throws IOException {
         Spider spider = new Spider();
+        System.out.println("Alive");
         // TEST CRAWL FOR DEBUGGING
 //        SpiderResponse spiderResponse = spider.crawl("https://en.wikipedia.org/wiki/Emmanuel_Macron");
 //        System.out.println(spiderResponse.getIncomingUrl());

@@ -1,0 +1,2 @@
+Time: 2022-05-01 12:23:33.487 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Emmanuel_Macron to the queue of links to crawl.
+Time: 2022-05-01 12:28:29.306 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Emmanuel_Macron to the queue of links to crawl.
