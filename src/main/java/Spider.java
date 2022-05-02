@@ -13,16 +13,18 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+import java.sql.Timestamp;
 import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 /**
  * Spider is a class that takes a given URL, and  a http string, status code, outgoing URLS, and the incoming URL.
  */
-public class Spider implements SpiderImpl, Runnable {
+public class Spider implements Runnable {
     public Boolean running;
     public Logger logger;
     public int identifier;
+
     public Spider(int id) {
         this.running = true;
         this.logger = new Logger();
@@ -39,7 +41,7 @@ public class Spider implements SpiderImpl, Runnable {
         try {
             Document doc = Jsoup.connect(incomingUrl).get();
             // set up spider responses.
-            resp.setResult(doc.html());
+            resp.setResult(doc.html(), this.identifier);
             ArrayList<String> tempUrls = new ArrayList<String>();
 
             Elements allLinks = doc.getElementsByTag("a");
@@ -74,7 +76,7 @@ public class Spider implements SpiderImpl, Runnable {
 
     /**
      * Runs in a thread-friendly fashion.
-     * */
+     */
     public void run() {
         try {
 
@@ -87,43 +89,42 @@ public class Spider implements SpiderImpl, Runnable {
     /**
      * The actual body of the run method.
      * This will use the Dispatcher RMI to get urls to crawl, then return responses / failures.
-     * */
+     */
     public void runSpider() throws RemoteException, NotBoundException, InterruptedException {
         try {
             Registry registry = LocateRegistry.getRegistry();
             RMIImpl stub = (RMIImpl) registry.lookup("RMIImpl");
+
             while (this.running) {
                 String url = stub.getLinkToCrawl(this.identifier);
                 try {
                     Logger.log(url);
                     SpiderResponse results = crawl(url);
+                    Timestamp timestamp = new Timestamp(System.currentTimeMillis());
+                    stub.writeToDispatcherLog("Time: " + timestamp + " | StatusCode: " + results.getStatusCode() + " | Spider ID: " + this.identifier + " | Spider response from " + results.getIncomingUrl() + "\n");
+
                     if (results.getStatusCode() > 300 && results.getStatusCode() < 600) {
-                        stub.writeToDispatcherLog("Error from " + results.getIncomingUrl() + ". StatusCode: " + results.getStatusCode() + "\n");
                         Logger.log("Error from " + results.getIncomingUrl() + ". StatusCode: " + results.getStatusCode() + "\n");
                     }
-                    stub.processResponseCode(results.getIncomingUrl(), results.getStatusCode());
 
+                    stub.processResponseCode(results.getIncomingUrl(), results.getStatusCode());
                     stub.processOutlinksFromSpider(results.getOutgoingUrls());
-                    //List<String> a = results.getOutgoingUrls().subList(0, 5);
-                    //stub.processOutlinksFromSpider((ArrayList<String>) a);
-                } catch(IllegalArgumentException e){
+                } catch (IllegalArgumentException e) {
                     stub.addToFailedLinks(url);
-                }
-                catch (Exception e) {
+                } catch (Exception e) {
                     e.printStackTrace();
                 }
                 TimeUnit.SECONDS.sleep(1); // Wikipedia doesn't like being DDOSed.
             }
-        }
-
-        catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
-    /** Kills the spider, breaking it's while(this.running) run loop
-     * */
+    /**
+     * Kills the spider, breaking it's while(this.running) run loop
+     */
     public void kill() {
         this.setRunning(false);
     }
@@ -131,59 +132,15 @@ public class Spider implements SpiderImpl, Runnable {
     /**
      * Returns a boolean if the spider is running.
      * Also works as an awk, as to whether there is a response or not.
-     * */
+     */
     public Boolean getRunning() {
         return running;
     }
 
     /**
      * Sets whether the spider value is running or not.
-     * */
+     */
     public void setRunning(Boolean running) {
         this.running = running;
     }
-
-    /**
-     * This is how a dispatcher will ask if a spider is running.
-     * */
-    @Override
-    public boolean spiderIsAlive() throws RemoteException {
-        return this.getRunning();
-    }
-
-
-    /**
-     * Main method for spider. Mainly for testing, and requires Dispatcher to be running.
-     * Dispatcher requires Client to populate the starter urls.
-     * So may as well just run dispatcher, which populates spiders, and client.
-     * */
-    public static void main(String[] args) throws IOException {
-        Spider spider = new Spider(1);
-//         TEST CRAWL FOR DEBUGGING
-//          THIS WILL NOT WORK WITHOUT A RUNNING DISPATCHER.
-        SpiderResponse spiderResponse = spider.crawl("https://en.wikipedia.org/wiki/Emmanuel_Macron");
-        Logger.log(spiderResponse.getIncomingUrl());
-        Logger.log(spiderResponse.getResult());
-        Logger.log(Integer.toString(spiderResponse.getStatusCode()));
-        for (int i = 0; i < spiderResponse.getOutgoingUrls().size(); i++) {
-            Logger.log(spiderResponse.getOutgoingUrls().get(i) + " ");
-        }
-
-        // Establish a server connection given a host and port
-        //int port = Integer.parseInt(args[1]);
-        String host = "localhost";
-        int port = 1099;
-        if (args.length > 1) {
-            host = args[0];
-            port = Integer.parseInt(args[1]);
-        }
-
-        try {
-            spider.run();
-        } catch (Exception e) {
-            Logger.log("RMIClient exception: " + e.getMessage());
-            e.printStackTrace();
-        }
-    }
-
 }

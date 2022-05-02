@@ -1,31 +1,36 @@
-# cs6650_final_project
-
 Final Project
 
-Client
-- sends 1 wiki link to the dispatcher/dispatcher
+How to run:
+**all files can be compiled with javac
 
-Dispatcher (RMIDispatcher interface for this)
-- Inputs: 1 link from client; many links from all spiders
-- Outputs: update the queue of links to crawl
-- System to keep track of spider count and always ensure that there are 5 active spiders (fault tolerance)
-- Spawns 5 spider server threads --> 1 will pick up the link from the front of the queue; others will wait
-- Spider duties will be carried out
-- Receives links from all spiders and handles visited/normalized/blacklist
-(limit to wikipedia)
-- Maintain a storage of urls that lead to a bad response code/spider failure
-(if the url leads to 2 failures, blacklist it)
+In another terminal window, run 'java Dispatcher <port#>' **port # is optional
+In another terminal window, run 'java Client <host> <port#>' **port # is optional
+**port # is optional and must match for coordinator and client if specified**
+**default port is 1099, default host is localhost
 
-Spider (libraries: HttpClient, JSoup)
-- Handle different response codes
-Inputs: 1 normalized link from front of dispatcher queue --> crawl the webpage
-Outputs:
-- 1. Link that was crawled + HTML text --> Index
-- 2. Outlinks --> back to the dispatcher (as an ArrayList<String>)
+Files included:
+Client 
+- Sends operations to Dispatcher via RMI connected via default port 1099
+- Another port can be specified in args for coordinator and client
+- Logs are held in clientlogs.txt - timestamped success/failure
 
-Index (RMIIndex interface)
-- {link1: html1, link2: html2, ..., linkx: htmlx}
-- Inputs: link, html text and update the index
+Dispatcher - Communicates with client and spiders via RMI
+- populateSpiders - Initializes the spiders, and serves urls to crawl via RMI
+- processResponseCode - Handles self-stabilization by blacklisting faulty urls
+- getLinkToCrawl - Synchronized blocking queue only gives spiders a url to crawl 1 at a time
+- ensureSpidersAreAlive - respawns any dead spiders and kills unresponsive one
+- processOutlinksFromSpider - only adds unvisited links
+RMIInterface - This is the RMI interface for the Dispatcher
 
-Weaknesses: 1 point of failure in the dispatcher --> will lose
-- if we lose dispatcher, also lose data
+Spider - Crawls webpages and returns response to client + stores html in text format
+- crawl - uses Jsoup to crawl and get information + normalizes urls that are on the page
+- runSpider - communicates the response codes, outlinks back to the dispatcher
+SpiderResponse - Stores information gathered from webpage
+- writes text to the index folder
+
+Jar files for Client and Dispatcher are included
+
+Other files
+preload.txt - Contains seed urls that Client sends to dispatcher in the beginning
+coordinatorLogs.txt - Timestamp, Spider id, response code, and link that spider crawled
+clientLogs.txt - Success/failure of links sent to dispatcher by the client

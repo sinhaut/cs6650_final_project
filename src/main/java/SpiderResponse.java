@@ -1,3 +1,7 @@
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /**
@@ -44,7 +48,22 @@ public class SpiderResponse {
         return result;
     }
 
-    public void setResult(String result) {
+    public void setResult(String result, int id) {
         this.result = result;
+        this.writeResultToFile(result, id);
+    }
+
+    public void writeResultToFile(String result, int id) {
+        String[] all = this.incomingUrl.toLowerCase().split("/");
+        String fName = all[all.length - 1];
+        String filePath = "index/spider" + id + fName + ".txt";
+        File file = new File(filePath);
+        try {
+            BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(file));
+            bufferedWriter.write(result);
+            bufferedWriter.close();
+        } catch (IOException e) {
+            Logger.log(e.getMessage());
+        }
     }
 }

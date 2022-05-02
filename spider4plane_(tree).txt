@@ -1,0 +1,809 @@
+<!doctype html>
+<html class="client-nojs" lang="en" dir="ltr"> 
+ <head> 
+  <meta charset="UTF-8"> 
+  <title>Platanus - Wikipedia</title> 
+  <script>document.documentElement.className="client-js";RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"5a11afa5-ce17-4ace-abf4-97fa167442a1","wgCSPNonce":false,"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Platanus","wgTitle":"Platanus","wgCurRevisionId":1084637245,"wgRevisionId":1084637245,"wgArticleId":165261,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Articles containing Ancient Greek (to 1453)-language text","Articles with short description","Short description is different from Wikidata","Articles with 'species' microformats","Commons category link is on Wikidata","Taxonbars with 25–29 taxon IDs","Articles with BNF identifiers",
+"Articles with GND identifiers","Articles with J9U identifiers","Articles with LCCN identifiers","Platanus","Platanaceae","Eudicot genera"],"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Platanus","wgRelevantArticleId":165261,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgRedirectedFrom":"Plane_(tree)","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":10000,"wgNoticeProject":"wikipedia","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":10,"wgULSCurrentAutonym":"English","wgInternalRedirectTargetUrl":"/wiki/Platanus","wgEditSubmitButtonLabelPublish":true,"wgCentralAuthMobileDomain":false,
+"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgWikibaseItemId":"Q163025","wgGENewcomerTasksGuidanceEnabled":true,"wgGEAskQuestionEnabled":false,"wgGELinkRecommendationsFrontendEnabled":false};RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","mediawiki.page.gallery.styles":"ready","skins.vector.styles.legacy":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.wikimediaBadges":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["mediawiki.action.view.redirect","ext.cite.ux-enhancements","mediawiki.page.gallery","ext.scribunto.logs","site","mediawiki.page.ready","mediawiki.toc","skins.vector.legacy.js","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming",
+"ext.cx.eventlogging.campaigns","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.charinsert","ext.gadget.extra-toolbar-buttons","ext.gadget.refToolbar","ext.gadget.switcher","ext.centralauth.centralautologin","ext.popups","ext.uls.compactlinks","ext.uls.interface","ext.growthExperiments.SuggestedEditSession"];</script> 
+  <script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement("user.options@1i9g4",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});});});</script> 
+  <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.page.gallery.styles%7Cskins.vector.styles.legacy%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"> 
+  <script async src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector"></script> 
+  <meta name="ResourceLoaderDynamicStyles" content=""> 
+  <link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"> 
+  <meta name="generator" content="MediaWiki 1.39.0-wmf.9"> 
+  <meta name="referrer" content="origin"> 
+  <meta name="referrer" content="origin-when-crossorigin"> 
+  <meta name="referrer" content="origin-when-cross-origin"> 
+  <meta name="format-detection" content="telephone=no"> 
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/80/Plataan_bladeren.jpg"> 
+  <meta property="og:image:width" content="1200"> 
+  <meta property="og:image:height" content="1161"> 
+  <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/8/80/Plataan_bladeren.jpg"> 
+  <meta property="og:image:width" content="800"> 
+  <meta property="og:image:height" content="774"> 
+  <meta property="og:image:width" content="640"> 
+  <meta property="og:image:height" content="619"> 
+  <meta property="og:title" content="Platanus - Wikipedia"> 
+  <meta property="og:type" content="website"> 
+  <link rel="preconnect" href="//upload.wikimedia.org"> 
+  <link rel="alternate" media="only screen and (max-width: 720px)" href="//en.m.wikipedia.org/wiki/Platanus"> 
+  <link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Platanus&amp;action=edit"> 
+  <link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"> 
+  <link rel="shortcut icon" href="/static/favicon/wikipedia.ico"> 
+  <link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"> 
+  <link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"> 
+  <link rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/"> 
+  <link rel="canonical" href="https://en.wikipedia.org/wiki/Platanus"> 
+  <link rel="dns-prefetch" href="//meta.wikimedia.org"> 
+  <link rel="dns-prefetch" href="//login.wikimedia.org"> 
+ </head> 
+ <body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Platanus rootpage-Platanus skin-vector action-view skin-vector-legacy">
+  <div id="mw-page-base" class="noprint"></div> 
+  <div id="mw-head-base" class="noprint"></div> 
+  <div id="content" class="mw-body" role="main"> <a id="top"></a> 
+   <div id="siteNotice">
+    <!-- CentralNotice -->
+   </div> 
+   <div class="mw-indicators"> 
+   </div> 
+   <h1 id="firstHeading" class="firstHeading mw-first-heading"><i>Platanus</i></h1> 
+   <div id="bodyContent" class="vector-body"> 
+    <div id="siteSub" class="noprint">
+     From Wikipedia, the free encyclopedia
+    </div> 
+    <div id="contentSub">
+     <span class="mw-redirectedfrom">&nbsp;&nbsp;(Redirected from <a href="/w/index.php?title=Plane_(tree)&amp;redirect=no" class="mw-redirect" title="Plane (tree)">Plane (tree)</a>)</span>
+    </div> 
+    <div id="contentSub2"></div> 
+    <div id="jump-to-nav"></div> <a class="mw-jump-link" href="#mw-head">Jump to navigation</a> <a class="mw-jump-link" href="#searchInput">Jump to search</a> 
+    <div id="mw-content-text" class="mw-body-content mw-content-ltr" lang="en" dir="ltr">
+     <div class="mw-parser-output">
+      <div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">
+       Genus of flowering plants constituting the family Platanaceae
+      </div> 
+      <style data-mw-deduplicate="TemplateStyles:r1033289096">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style>
+      <div role="note" class="hatnote navigation-not-searchable">
+       For the town of ancient Cilicia, see <a href="/wiki/Platanus_(Cilicia)" title="Platanus (Cilicia)">Platanus (Cilicia)</a>. For the main-belt asteroid, see <a href="/wiki/9309_Platanus" class="mw-redirect" title="9309 Platanus">9309 Platanus</a>.
+      </div> 
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096">
+      <div role="note" class="hatnote navigation-not-searchable">
+       "Plane tree" redirects here. For mathematical trees with a planar embedding, see <a href="/wiki/Ordered_tree" class="mw-redirect" title="Ordered tree">Ordered tree</a>.
+      </div> 
+      <p class="mw-empty-elt"> </p> 
+      <table class="infobox biota" style="text-align: left; width: 200px; font-size: 100%"> 
+       <tbody>
+        <tr> 
+         <th colspan="2" style="text-align: center; background-color: rgb(180,250,180)"><i>Platanus</i><br>
+          <div style="font-size: 85%;">
+           Temporal range: <span class="noprint"><span style="display:inline-block;"></span><span style="display:inline-block;">Late Cretaceous–Present</span> <span style="display:inline-block;"></span>
+            <div id="Timeline-row" style="margin: 4px auto 0; clear:both; width:220px; padding:0px; height:18px; overflow:visible; white-space:nowrap; border:1px #666; border-style:solid none; position:relative; z-index:0; font-size:97%;"> 
+             <div style="position:absolute; height:100%; left:0px; width:207.23076923077px; padding-left:5px; text-align:left; background-color:rgb(254,217,106); background-image: linear-gradient(to right, rgba(255,255,255,1), rgba(254,217,106,1) 15%, rgba(254,217,106,1));">
+              <a href="/wiki/Precambrian" title="Precambrian">PreꞒ</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(127,160,86); left:37.636923076923px; width:18.073846153846px;">
+              <a href="/wiki/Cambrian" title="Cambrian">Ꞓ</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(0,146,112); left:55.710769230769px; width:14.08px;">
+              <a href="/wiki/Ordovician" title="Ordovician">O</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(179,225,182); left:69.790769230769px; width:8.3261538461539px;">
+              <a href="/wiki/Silurian" title="Silurian">S</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(203,140,55); left:78.116923076923px; width:20.409230769231px;">
+              <a href="/wiki/Devonian" title="Devonian">D</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(103,165,153); left:98.526153846154px; width:20.307692307692px;">
+              <a href="/wiki/Carboniferous" title="Carboniferous">C</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(240,64,40); left:118.83384615385px; width:15.907015384615px;">
+              <a href="/wiki/Permian" title="Permian">P</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(129,43,146); left:134.74086153846px; width:17.126830769231px;">
+              <a href="/wiki/Triassic" title="Triassic">T</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(52,178,201); left:151.86769230769px; width:19.055384615385px;">
+              <a href="/wiki/Jurassic" title="Jurassic">J</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(127,198,78); left:170.92307692308px; width:26.738461538462px;">
+              <a href="/wiki/Cretaceous" title="Cretaceous">K</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(253,154,82); left:197.66153846154px; width:14.543692307692px;">
+              <a href="/wiki/Paleogene" title="Paleogene">Pg</a>
+             </div> 
+             <div style="position:absolute; height:100%; text-align:center; background-color:rgb(255,230,25); left:212.20523076923px; width:6.9215384615385px;">
+              <a href="/wiki/Neogene" title="Neogene">N</a>
+             </div> 
+             <div id="end-border" style="position:absolute; height:100%; background-color:#666; width:1px; left:219px"></div>
+             <div style="margin:0 auto; line-height:0; clear:both; width:220px; padding:0px; height:8px; overflow:visible; background-color:transparent; position:relative; top:-4px; z-index:100;">
+              <div style="position:absolute; height:8px; left:185.98461538462px; width:34.015384615385px; background-color:#360; opacity:0.42;"></div> 
+              <div style="position:absolute; height:8px; left:185.98461538462px; width:34.015384615385px; background-color:#360; opacity:1;"></div> 
+              <div style="position:absolute; height:6px; top:1px; left:186.98461538462px; width:32.015384615385px; background-color:#6c3;"></div> 
+             </div> 
+            </div></span>
+          </div> </th>
+        </tr> 
+        <tr> 
+         <td colspan="2" style="text-align: center"><a href="/wiki/File:Plataan_bladeren.jpg" class="image"><img alt="Plataan bladeren.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Plataan_bladeren.jpg/220px-Plataan_bladeren.jpg" decoding="async" width="220" height="213" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Plataan_bladeren.jpg/330px-Plataan_bladeren.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/8/80/Plataan_bladeren.jpg 2x" data-file-width="400" data-file-height="387"></a> </td>
+        </tr> 
+        <tr> 
+         <td colspan="2" style="text-align: center; font-size: 88%">Leaves and fruit of a London plane </td>
+        </tr> 
+        <tr> 
+         <th colspan="2" style="min-width:15em; text-align: center; background-color: rgb(180,250,180)"><a href="/wiki/Taxonomy_(biology)" title="Taxonomy (biology)">Scientific classification</a> <span class="plainlinks" style="font-size:smaller; float:right; padding-right:0.4em; margin-left:-3em;"><a href="/wiki/Template:Taxonomy/Platanus" title="e"><img alt="e" src="//upload.wikimedia.org/wikipedia/commons/7/74/Red_Pencil_Icon.png" decoding="async" width="16" height="16" data-file-width="16" data-file-height="16"></a></span> </th>
+        </tr> 
+        <tr> 
+         <td>Kingdom: </td> 
+         <td><a href="/wiki/Plant" title="Plant">Plantae</a> </td>
+        </tr> 
+        <tr> 
+         <td><i>Clade</i>: </td> 
+         <td><a href="/wiki/Vascular_plant" title="Vascular plant">Tracheophytes</a> </td>
+        </tr> 
+        <tr> 
+         <td><i>Clade</i>: </td> 
+         <td><a href="/wiki/Flowering_plant" title="Flowering plant">Angiosperms</a> </td>
+        </tr> 
+        <tr> 
+         <td><i>Clade</i>: </td> 
+         <td><a href="/wiki/Eudicots" title="Eudicots">Eudicots</a> </td>
+        </tr> 
+        <tr> 
+         <td>Order: </td> 
+         <td><a href="/wiki/Proteales" title="Proteales">Proteales</a> </td>
+        </tr> 
+        <tr> 
+         <td>Family: </td> 
+         <td><a href="/wiki/Platanaceae" title="Platanaceae">Platanaceae</a> </td>
+        </tr> 
+        <tr> 
+         <td>Genus: </td> 
+         <td><a class="mw-selflink selflink"><i>Platanus</i></a><br><small><a href="/wiki/Carl_Linnaeus" title="Carl Linnaeus">L.</a></small> </td>
+        </tr> 
+        <tr> 
+         <th colspan="2" style="text-align: center; background-color: rgb(180,250,180)">Species </th>
+        </tr> 
+        <tr> 
+         <td colspan="2" style="text-align: left"> <p>See text </p> </td>
+        </tr> 
+       </tbody>
+      </table> 
+      <p><i><b>Platanus</b></i> <span class="rt-commentedText nowrap"><span class="IPA nopopups noexcerpt"><a href="/wiki/Help:IPA/English" title="Help:IPA/English">/<span style="border-bottom:1px dotted"><span title="/ˈ/: primary stress follows">ˈ</span><span title="'p' in 'pie'">p</span><span title="'l' in 'lie'">l</span><span title="/æ/: 'a' in 'bad'">æ</span><span title="'t' in 'tie'">t</span><span title="/ə/: 'a' in 'about'">ə</span><span title="'n' in 'nigh'">n</span><span title="/ə/: 'a' in 'about'">ə</span><span title="'s' in 'sigh'">s</span></span>/</a></span></span><sup id="cite_ref-FOOTNOTESunset_Western_Garden_Book1995_1-0" class="reference"><a href="#cite_note-FOOTNOTESunset_Western_Garden_Book1995-1">[1]</a></sup> is a <a href="/wiki/Genus" title="Genus">genus</a> consisting of a small number of <a href="/wiki/Tree" title="Tree">tree</a> species native to the <a href="/wiki/Northern_Hemisphere" title="Northern Hemisphere">Northern Hemisphere</a>. They are the sole living members of the family <a href="/wiki/Platanaceae" title="Platanaceae">Platanaceae</a>. </p>
+      <p>All mature members of <i>Platanus</i> are tall, reaching 30–50&nbsp;m (98–164&nbsp;ft) in height. All except for <i>P. kerrii</i> are <a href="/wiki/Deciduous" title="Deciduous">deciduous</a>, and most are found in <a href="/wiki/Riparian" class="mw-redirect" title="Riparian">riparian</a> or other <a href="/wiki/Wetland" title="Wetland">wetland</a> <a href="/wiki/Habitat_(ecology)" class="mw-redirect" title="Habitat (ecology)">habitats</a> in the wild, though proving <a href="/wiki/Drought-tolerant" class="mw-redirect" title="Drought-tolerant">drought-tolerant</a> in cultivation. The hybrid <a href="/wiki/London_plane" class="mw-redirect" title="London plane">London plane</a> (<i>Platanus </i>×<i> acerifolia</i>) has proved particularly tolerant of urban conditions, and has been widely planted in London and elsewhere in the United Kingdom. </p>
+      <p>They are often known in English as <i><b>planes</b></i> or <i><b>plane trees</b></i>. A formerly used name that is now rare is <i>plantain tree</i> (not to be confused with <a href="/wiki/Plantain_(disambiguation)" class="mw-redirect mw-disambig" title="Plantain (disambiguation)">other, unrelated, species with the name</a>).<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup> Some North American species are called <i>sycamores</i> (especially <i><a href="/wiki/Platanus_occidentalis" title="Platanus occidentalis">Platanus occidentalis</a></i>),<sup id="cite_ref-FOOTNOTEMerriam_Webster_3-0" class="reference"><a href="#cite_note-FOOTNOTEMerriam_Webster-3">[3]</a></sup> although the term is also used for <a href="/wiki/Sycamore" title="Sycamore">several unrelated species of trees</a>. The genus name <i>Platanus</i> comes from <a href="/wiki/Ancient_Greek" title="Ancient Greek">Ancient Greek</a> <span title="Ancient Greek (to 1453)-language text"><span lang="grc">πλάτανος</span></span>, which referred to <i><a href="/wiki/Platanus_orientalis" title="Platanus orientalis">Platanus orientalis</a></i>.<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> </p> 
+      <div id="toc" class="toc" role="navigation" aria-labelledby="mw-toc-heading">
+       <input type="checkbox" role="button" id="toctogglecheckbox" class="toctogglecheckbox" style="display:none">
+       <div class="toctitle" lang="en" dir="ltr">
+        <h2 id="mw-toc-heading">Contents</h2><span class="toctogglespan"><label class="toctogglelabel" for="toctogglecheckbox"></label></span>
+       </div> 
+       <ul> 
+        <li class="toclevel-1 tocsection-1"><a href="#Botany"><span class="tocnumber">1</span> <span class="toctext">Botany</span></a></li> 
+        <li class="toclevel-1 tocsection-2"><a href="#Phylogeny"><span class="tocnumber">2</span> <span class="toctext">Phylogeny</span></a></li> 
+        <li class="toclevel-1 tocsection-3"><a href="#Species"><span class="tocnumber">3</span> <span class="toctext">Species</span></a></li> 
+        <li class="toclevel-1 tocsection-4"><a href="#Diseases"><span class="tocnumber">4</span> <span class="toctext">Diseases</span></a></li> 
+        <li class="toclevel-1 tocsection-5"><a href="#Uses"><span class="tocnumber">5</span> <span class="toctext">Uses</span></a></li> 
+        <li class="toclevel-1 tocsection-6"><a href="#Cultural_history"><span class="tocnumber">6</span> <span class="toctext">Cultural history</span></a></li> 
+        <li class="toclevel-1 tocsection-7"><a href="#Footnotes"><span class="tocnumber">7</span> <span class="toctext">Footnotes</span></a></li> 
+        <li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li> 
+        <li class="toclevel-1 tocsection-9"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li> 
+       </ul> 
+      </div> 
+      <h2><span class="mw-headline" id="Botany">Botany</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=1" title="Edit section: Botany">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <div class="thumb tright">
+       <div class="thumbinner" style="width:222px;">
+        <a href="/wiki/File:Platane,_Trsteno.JPG" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Platane%2C_Trsteno.JPG/220px-Platane%2C_Trsteno.JPG" decoding="async" width="220" height="293" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/76/Platane%2C_Trsteno.JPG/330px-Platane%2C_Trsteno.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/76/Platane%2C_Trsteno.JPG/440px-Platane%2C_Trsteno.JPG 2x" data-file-width="2112" data-file-height="2816"></a> 
+        <div class="thumbcaption">
+         <div class="magnify">
+          <a href="/wiki/File:Platane,_Trsteno.JPG" class="internal" title="Enlarge"></a>
+         </div>Bole of an aged <i>Platanus</i>, in Trsteno, near <a href="/wiki/Dubrovnik" title="Dubrovnik">Dubrovnik</a>, Croatia
+        </div>
+       </div>
+      </div> 
+      <div class="thumb tright">
+       <div class="thumbinner" style="width:222px;">
+        <a href="/wiki/File:Plane_tree_fruit_20180707_092951.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Plane_tree_fruit_20180707_092951.jpg/220px-Plane_tree_fruit_20180707_092951.jpg" decoding="async" width="220" height="290" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Plane_tree_fruit_20180707_092951.jpg/330px-Plane_tree_fruit_20180707_092951.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/40/Plane_tree_fruit_20180707_092951.jpg/440px-Plane_tree_fruit_20180707_092951.jpg 2x" data-file-width="2268" data-file-height="2991"></a> 
+        <div class="thumbcaption">
+         <div class="magnify">
+          <a href="/wiki/File:Plane_tree_fruit_20180707_092951.jpg" class="internal" title="Enlarge"></a>
+         </div>Ripe plane tree fruit
+        </div>
+       </div>
+      </div> 
+      <p>The flowers are reduced and are borne in balls (globose heads); 3–7 hairy <a href="/wiki/Sepal" title="Sepal">sepals</a> may be fused at the base, and the petals are 3–7 and are <a href="/wiki/Leaf_shape" class="mw-redirect" title="Leaf shape">spatulate</a>. Male and female flowers are separate, but borne on the same plant (<a href="/wiki/Monoecy" title="Monoecy">monoecious</a>). The number of heads in one cluster (<a href="/wiki/Inflorescence" title="Inflorescence">inflorescence</a>) is indicative of the species (see table below). The male flower has 3–8 <a href="/wiki/Stamen" title="Stamen">stamens</a>; the female has a superior ovary with 3–7 <a href="/wiki/Carpel" class="mw-redirect" title="Carpel">carpels</a>. Plane trees are wind-pollinated. Male flower-heads fall off after shedding their pollen. </p>
+      <p>After being pollinated, the female flowers become <a href="/wiki/Achene" title="Achene">achenes</a> that form an aggregate ball. The fruit is a multiple of achenes (plant systematics, Simpson M. G., 2006). Typically, the core of the ball is 1&nbsp;cm in diameter and is covered with a net of mesh 1&nbsp;mm, which can be peeled off. The ball is 2.5–4&nbsp;cm in diameter and contains several hundred achenes, each of which has a single seed and is conical, with the point attached downward to the net at the surface of the ball. There is also a tuft of many thin stiff yellow-green bristle fibers attached to the base of each achene. These bristles help in wind dispersion of the fruits as in the <a href="/wiki/Dandelion" class="mw-redirect" title="Dandelion">dandelion</a>. </p>
+      <p>The leaves are <a href="/wiki/Leaf_shape" class="mw-redirect" title="Leaf shape">simple</a> and alternate. In the subgenus <i>Platanus</i> they have a palmate outline. The base of the leaf stalk (petiole) is enlarged and completely wraps around the young stem bud in its axil. The axillary bud is exposed only after the leaf falls off. </p>
+      <p>The mature bark peels off or exfoliates easily in irregularly shaped patches, producing a mottled, scaly appearance. On old trunks, bark may not flake off, but thickens and cracks instead. </p> 
+      <h2><span class="mw-headline" id="Phylogeny">Phylogeny</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=2" title="Edit section: Phylogeny">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <p>There are two subgenera, subgenus <i>Castaneophyllum</i> containing the anomalous <i><a href="/wiki/Platanus_kerrii" title="Platanus kerrii">P. kerrii</a></i>, and subgenus <i>Platanus</i>, with all the others; recent studies in Mexico<sup id="cite_ref-FOOTNOTENixonPoole2003_5-0" class="reference"><a href="#cite_note-FOOTNOTENixonPoole2003-5">[5]</a></sup> have increased the number of accepted species in this subgenus. Within subgenus <i>Platanus</i>, genetic evidence suggests that <i>P. racemosa</i> is more closely related to <i>P. orientalis</i> than it is to the other North American species.<sup id="cite_ref-FOOTNOTEFengOhManos2005_6-0" class="reference"><a href="#cite_note-FOOTNOTEFengOhManos2005-6">[6]</a></sup> The fossil record of leaves and fruit identifiable to <i>Plantanus</i> begins in the <a href="/wiki/Paleocene" title="Paleocene">Paleocene</a>.<sup id="cite_ref-MissisippiMiocene_7-0" class="reference"><a href="#cite_note-MissisippiMiocene-7">[7]</a></sup> Despite the geographic separation between North America and Old World, species from these continents will cross readily resulting in fertile <a href="/wiki/Hybrid_(biology)" title="Hybrid (biology)">hybrids</a> such as the London plane. </p> 
+      <ul class="gallery mw-gallery-packed"> 
+       <li class="gallerybox" style="width: 152px">
+        <div style="width: 152px"> 
+         <div class="thumb" style="width: 150px;">
+          <div style="margin:0px auto;">
+           <a href="/wiki/File:Skhtorashen176.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Skhtorashen176.jpg/225px-Skhtorashen176.jpg" decoding="async" width="150" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Skhtorashen176.jpg/337px-Skhtorashen176.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Skhtorashen176.jpg/450px-Skhtorashen176.jpg 2x" data-file-width="1536" data-file-height="2048"></a>
+          </div>
+         </div> 
+         <div class="gallerytext"> 
+          <p>The <span class="currentage"></span>2042-year-old <i>Platanus orientalis</i> tree <a href="/wiki/Tnjri" title="Tnjri">Tnjri</a> in <a href="/wiki/Nagorno-Karabakh" title="Nagorno-Karabakh">Nagorno-Karabakh</a>. </p> 
+         </div> 
+        </div></li> 
+       <li class="gallerybox" style="width: 287.33333333333px">
+        <div style="width: 287.33333333333px"> 
+         <div class="thumb" style="width: 285.33333333333px;">
+          <div style="margin:0px auto;">
+           <a href="/wiki/File:Fossil_Platanus_leaf.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fossil_Platanus_leaf.jpg/428px-Fossil_Platanus_leaf.jpg" decoding="async" width="286" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fossil_Platanus_leaf.jpg/642px-Fossil_Platanus_leaf.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Fossil_Platanus_leaf.jpg/856px-Fossil_Platanus_leaf.jpg 2x" data-file-width="1278" data-file-height="896"></a>
+          </div>
+         </div> 
+         <div class="gallerytext"> 
+          <p>Fossil <i>Platanus</i> leaf from the <a href="/wiki/Paleocene" title="Paleocene">Paleocene</a> of <a href="/wiki/Alberta" title="Alberta">Alberta</a>, Canada. </p> 
+         </div> 
+        </div></li> 
+       <li class="gallerybox" style="width: 235.33333333333px">
+        <div style="width: 235.33333333333px"> 
+         <div class="thumb" style="width: 233.33333333333px;">
+          <div style="margin:0px auto;">
+           <a href="/wiki/File:Fossil_Platanus_Fruit_0444.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fossil_Platanus_Fruit_0444.jpg/350px-Fossil_Platanus_Fruit_0444.jpg" decoding="async" width="234" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fossil_Platanus_Fruit_0444.jpg/524px-Fossil_Platanus_Fruit_0444.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fossil_Platanus_Fruit_0444.jpg/699px-Fossil_Platanus_Fruit_0444.jpg 2x" data-file-width="3386" data-file-height="2906"></a>
+          </div>
+         </div> 
+         <div class="gallerytext"> 
+          <p>Fossil <i>Platanus</i> fruit from the <a href="/wiki/Paleocene" title="Paleocene">Paleocene</a> of <a href="/wiki/Alberta" title="Alberta">Alberta</a>, Canada. </p> 
+         </div> 
+        </div></li> 
+      </ul> 
+      <h2><span class="mw-headline" id="Species">Species</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=3" title="Edit section: Species">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <p>The following are recognized species of plane trees: </p> 
+      <table class="wikitable"> 
+       <tbody>
+        <tr> 
+         <th>Botanic name</th> 
+         <th>Common names</th> 
+         <th>Distribution</th> 
+         <th>Flowerheads</th> 
+         <th>Notes </th>
+        </tr> 
+        <tr> 
+         <td><a href="/wiki/Platanus_%C3%97_acerifolia" title="Platanus × acerifolia"><i>Platanus</i> × <i>acerifolia</i></a> <br>(<i>P. occidentalis</i> × <i>P. orientalis</i>; <br>syn. <i>P.</i> × <i>hispanica</i>, <i>P.</i> × <i>hybrida</i>)</td> 
+         <td>London plane, hybrid plane</td> 
+         <td>Cultivated origin</td> 
+         <td>1–6</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/w/index.php?title=Platanus_chiapensis&amp;action=edit&amp;redlink=1" class="new" title="Platanus chiapensis (page does not exist)">Platanus chiapensis</a></i></td> 
+         <td>Chiapas plane</td> 
+         <td>southeast Mexico</td> 
+         <td>?</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/w/index.php?title=Platanus_gentryi&amp;action=edit&amp;redlink=1" class="new" title="Platanus gentryi (page does not exist)">Platanus gentryi</a></i></td> 
+         <td>Gentry's plane</td> 
+         <td>western Mexico</td> 
+         <td>?</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/wiki/Platanus_kerrii" title="Platanus kerrii">Platanus kerrii</a></i></td> 
+         <td>Kerr's plane</td> 
+         <td>Laos, Vietnam</td> 
+         <td>10–12</td> 
+         <td>Subgenus <i>Castaneophyllum</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/wiki/Platanus_mexicana" title="Platanus mexicana">Platanus mexicana</a></i></td> 
+         <td>Mexican sycamore, Mexican plane</td> 
+         <td>northeast and central <a href="/wiki/Mexico" title="Mexico">Mexico</a></td> 
+         <td>1–4</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/w/index.php?title=Platanus_oaxacana&amp;action=edit&amp;redlink=1" class="new" title="Platanus oaxacana (page does not exist)">Platanus oaxacana</a></i></td> 
+         <td>Oaxaca plane</td> 
+         <td>southern Mexico</td> 
+         <td>?</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/wiki/Platanus_occidentalis" title="Platanus occidentalis">Platanus occidentalis</a></i></td> 
+         <td>American sycamore, American plane, buttonwood, occidental plane, water beech</td> 
+         <td>eastern North America</td> 
+         <td>1–2</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/w/index.php?title=Platanus_rzedowskii&amp;action=edit&amp;redlink=1" class="new" title="Platanus rzedowskii (page does not exist)">Platanus rzedowskii</a></i></td> 
+         <td>Rzedowski's plane, Rzedowskii's sycamore</td> 
+         <td>eastern Mexico</td> 
+         <td>1-2</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/wiki/Platanus_orientalis" title="Platanus orientalis">Platanus orientalis</a></i></td> 
+         <td>Oriental plane</td> 
+         <td>southeast Europe, southwest Asia</td> 
+         <td>3–6</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/wiki/Platanus_racemosa" title="Platanus racemosa">Platanus racemosa</a></i></td> 
+         <td>California sycamore, western sycamore, aliso</td> 
+         <td><a href="/wiki/California" title="California">California</a>, <a href="/wiki/Baja_California" title="Baja California">Baja California</a></td> 
+         <td>3–7</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+        <tr> 
+         <td><i><a href="/wiki/Platanus_wrightii" title="Platanus wrightii">Platanus wrightii</a></i></td> 
+         <td>Arizona sycamore</td> 
+         <td>south-western United States (<a href="/wiki/Arizona" title="Arizona">Arizona</a>, <a href="/wiki/New_Mexico" title="New Mexico">New Mexico</a>), north-western Mexico</td> 
+         <td>2–4</td> 
+         <td>Subgenus <i>Platanus</i> </td>
+        </tr> 
+       </tbody>
+      </table> 
+      <h2><span class="mw-headline" id="Diseases">Diseases</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=4" title="Edit section: Diseases">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <div class="thumb tright">
+       <div class="thumbinner" style="width:172px;">
+        <a href="/wiki/File:2020-06-04_16_44_33_An_American_sycamore_with_a_severe_infection_of_Sycamore_anthracnose_along_Tranquility_Lane_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/2020-06-04_16_44_33_An_American_sycamore_with_a_severe_infection_of_Sycamore_anthracnose_along_Tranquility_Lane_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/170px-thumbnail.jpg" decoding="async" width="170" height="227" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/47/2020-06-04_16_44_33_An_American_sycamore_with_a_severe_infection_of_Sycamore_anthracnose_along_Tranquility_Lane_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/255px-thumbnail.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/47/2020-06-04_16_44_33_An_American_sycamore_with_a_severe_infection_of_Sycamore_anthracnose_along_Tranquility_Lane_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg/340px-thumbnail.jpg 2x" data-file-width="3024" data-file-height="4032"></a> 
+        <div class="thumbcaption">
+         <div class="magnify">
+          <a href="/wiki/File:2020-06-04_16_44_33_An_American_sycamore_with_a_severe_infection_of_Sycamore_anthracnose_along_Tranquility_Lane_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg" class="internal" title="Enlarge"></a>
+         </div>Severe infections of anthracnose can sometimes defoliate large swaths of American sycamore forest during mid and late spring, but trees generally recover by mid-summer
+        </div>
+       </div>
+      </div> 
+      <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1033289096">
+      <div role="note" class="hatnote navigation-not-searchable">
+       Main article: <a href="/wiki/List_of_Platanus_diseases" title="List of Platanus diseases">List of Platanus diseases</a>
+      </div> 
+      <p>Planes are susceptible to plane anthracnose (<i>Apiognomonia veneta</i>), a <a href="/wiki/Fungus" title="Fungus">fungal</a> disease that can defoliate the trees in some years. The most severe infections are associated with cold, wet spring weather. <i>P. occidentalis</i> and the other American species are the most susceptible, with <i>P. orientalis</i> the most resistant. The hybrid London plane is intermediate in resistance. </p>
+      <p><i><a href="/wiki/Ceratocystis_platani" title="Ceratocystis platani">Ceratocystis platani</a></i>, a <a href="/wiki/Wilt_disease" title="Wilt disease">wilt disease</a>, has become a significant problem in recent years in much of Europe.<sup id="cite_ref-FOOTNOTEPathology_note_72008_8-0" class="reference"><a href="#cite_note-FOOTNOTEPathology_note_72008-8">[8]</a></sup> The North American species are mostly resistant to the disease, with which they probably coevolved, while the old world species are highly sensitive. </p>
+      <p>Other diseases such as <a href="/wiki/Powdery_mildew" title="Powdery mildew">powdery mildew</a> occur frequently, but are of lesser importance. </p>
+      <p><i>Platanus</i> species are used as food plants by the <a href="/wiki/Larva" title="Larva">larvae</a> of some <a href="/wiki/Lepidoptera" title="Lepidoptera">Lepidoptera</a> species including <i><a href="/wiki/Phyllonorycter_platani" title="Phyllonorycter platani">Phyllonorycter platani</a></i> and <a href="/wiki/Setaceous_Hebrew_Character" class="mw-redirect" title="Setaceous Hebrew Character">Setaceous Hebrew Character</a>. </p>
+      <p>In the 21st century a disease, commonly known as Massaria disease, has attacked plane trees across Europe. It is caused by the fungus <i><a href="/wiki/Splanchnonema_platani" title="Splanchnonema platani">Splanchnonema platani</a></i>, and causes large lesions on the upper sides of branches.<sup id="cite_ref-fc_9-0" class="reference"><a href="#cite_note-fc-9">[9]</a></sup><sup id="cite_ref-tt_10-0" class="reference"><a href="#cite_note-tt-10">[10]</a></sup> </p> 
+      <h2><span class="mw-headline" id="Uses">Uses</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=5" title="Edit section: Uses">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <p>The principal use of these trees is as ornamental trees, especially in urban areas and by roadsides. The <a href="/wiki/London_plane" class="mw-redirect" title="London plane">London plane</a> is particularly popular for this purpose. The <a href="/wiki/American_plane" class="mw-redirect" title="American plane">American plane</a> is cultivated sometimes for timber and investigations have been made into its use as a <a href="/wiki/Biomass" title="Biomass">biomass</a> crop. The <a href="/wiki/Oriental_plane" class="mw-redirect" title="Oriental plane">oriental plane</a> is widely used as an ornamental and also has a number of minor medicinal uses. </p> 
+      <h2><span class="mw-headline" id="Cultural_history">Cultural history</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=6" title="Edit section: Cultural history">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <div class="thumb tright">
+       <div class="thumbinner" style="width:172px;">
+        <a href="/wiki/File:Plane_Tree_bark_at_Tayac,_Dordogne.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Plane_Tree_bark_at_Tayac%2C_Dordogne.jpg/170px-Plane_Tree_bark_at_Tayac%2C_Dordogne.jpg" decoding="async" width="170" height="227" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Plane_Tree_bark_at_Tayac%2C_Dordogne.jpg/255px-Plane_Tree_bark_at_Tayac%2C_Dordogne.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/53/Plane_Tree_bark_at_Tayac%2C_Dordogne.jpg/340px-Plane_Tree_bark_at_Tayac%2C_Dordogne.jpg 2x" data-file-width="1920" data-file-height="2560"></a> 
+        <div class="thumbcaption">
+         <div class="magnify">
+          <a href="/wiki/File:Plane_Tree_bark_at_Tayac,_Dordogne.jpg" class="internal" title="Enlarge"></a>
+         </div><a href="/wiki/Patterns_in_nature" title="Patterns in nature">Patterned</a> bark of <a href="/wiki/London_plane" class="mw-redirect" title="London plane">London plane</a>
+        </div>
+       </div>
+      </div> 
+      <p>Most significant aspects of cultural history apply to <i><a href="/wiki/Platanus_orientalis#Cultural_history" title="Platanus orientalis">Platanus orientalis</a></i> in the Old World. The tree is an important part of the literary scenery of Plato's dialogue <a href="/wiki/Phaedrus_(dialogue)" title="Phaedrus (dialogue)">Phaedrus</a>. Because of <a href="/wiki/Plato" title="Plato">Plato</a>, the tree also played an important role in the scenery of Cicero's <a href="/wiki/De_Oratore" title="De Oratore">De Oratore</a>. The trees also provided the shade under which <a href="/wiki/Aristotle" title="Aristotle">Aristotle</a> and Plato’s famed philosophical schools were held.<sup id="cite_ref-11" class="reference"><a href="#cite_note-11">[11]</a></sup> <a href="/wiki/Handel" class="mw-redirect" title="Handel">Handel</a>'s opera <a href="/wiki/Serse" title="Serse">Serse</a> features a famous aria, "<a href="/wiki/Ombra_mai_fu" title="Ombra mai fu">Ombra mai fu</a>," which the title character sings in praise of his favorite plane tree. </p>
+      <p>The plane tree has been a frequent motif featured in <a href="/wiki/Classical_Chinese_poetry" title="Classical Chinese poetry">Classical Chinese poetry</a> as an embodiment of sorrowful sentiments due to its autumnal shedding of leaves. </p>
+      <p>The legendary <a href="/wiki/Dry_tree" class="mw-redirect" title="Dry tree">Dry tree</a> first recorded by <a href="/wiki/Marco_Polo" title="Marco Polo">Marco Polo</a> was possibly a platanus. According to the legend, it marked the site of the battle between <a href="/wiki/Alexander_the_Great" title="Alexander the Great">Alexander the Great</a> and <a href="/wiki/Darius_III" title="Darius III">Darius III</a>. </p>
+      <p>The <a href="/wiki/German_World_War_II_camouflage_patterns" title="German World War II camouflage patterns">German camouflage pattern</a> <i>Platanenmuster</i> ("plane tree pattern"), designed in 1937–1942 by Johann Georg Otto Schick, was the first dotted camouflage pattern.<sup id="cite_ref-Beaver_12-0" class="reference"><a href="#cite_note-Beaver-12">[12]</a></sup> </p> 
+      <h2><span class="mw-headline" id="Footnotes">Footnotes</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=7" title="Edit section: Footnotes">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <div class="mw-references-wrap mw-references-columns">
+       <ol class="references"> 
+        <li id="cite_note-FOOTNOTESunset_Western_Garden_Book1995-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTESunset_Western_Garden_Book1995_1-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFSunset_Western_Garden_Book1995">Sunset Western Garden Book 1995</a>.</span> </li> 
+        <li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><style data-mw-deduplicate="TemplateStyles:r1067248974">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output .citation .cs1-lock-registration a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output .citation .cs1-lock-subscription a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:linear-gradient(transparent,transparent),url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}</style><cite id="CITEREFReference-OED-plantain,_n.2" class="citation encyclopaedia cs1"><span class="cs1-lock-subscription" title="Paid subscription required"><a rel="nofollow" class="external text" href="https://oed.com/search?searchType=dictionary&amp;q=plantain%2C+n.2">"plantain, n.2"</a></span>. <i><a href="/wiki/Oxford_English_Dictionary" title="Oxford English Dictionary">Oxford English Dictionary</a></i> (Online&nbsp;ed.). <a href="/wiki/Oxford_University_Press" title="Oxford University Press">Oxford University Press</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=plantain%2C+n.2&amp;rft.btitle=Oxford+English+Dictionary&amp;rft.edition=Online&amp;rft.pub=Oxford+University+Press&amp;rft_id=https%3A%2F%2Foed.com%2Fsearch%3FsearchType%3Ddictionary%26q%3Dplantain%252C%2Bn.2&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span>&nbsp;<span style="font-size:0.95em; font-size:90%; color:#555">(Subscription or <a rel="nofollow" class="external text" href="https://www.oed.com/public/login/loggingin#withyourlibrary">participating institution membership</a> required.)</span></span> </li> 
+        <li id="cite_note-FOOTNOTEMerriam_Webster-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEMerriam_Webster_3-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFMerriam_Webster">Merriam Webster</a>.</span> </li> 
+        <li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0057:entry=pla/tanos"><span title="Ancient Greek (to 1453)-language text"><span lang="grc">πλάτανος</span></span></a>. <a href="/wiki/Henry_Liddell" title="Henry Liddell">Liddell, Henry George</a>; <a href="/wiki/Robert_Scott_(philologist)" title="Robert Scott (philologist)">Scott, Robert</a>; <i><a href="/wiki/A_Greek%E2%80%93English_Lexicon" title="A Greek–English Lexicon">A Greek–English Lexicon</a></i> at the <a href="/wiki/Perseus_Project" title="Perseus Project">Perseus Project</a></span> </li> 
+        <li id="cite_note-FOOTNOTENixonPoole2003-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTENixonPoole2003_5-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFNixonPoole2003">Nixon &amp; Poole 2003</a>.</span> </li> 
+        <li id="cite_note-FOOTNOTEFengOhManos2005-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEFengOhManos2005_6-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFFengOhManos2005">Feng, Oh &amp; Manos 2005</a>.</span> </li> 
+        <li id="cite_note-MissisippiMiocene-7"><span class="mw-cite-backlink"><b><a href="#cite_ref-MissisippiMiocene_7-0">^</a></b></span> <span class="reference-text">
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFMcNair,_D.M.D.Z._StultsB._AxsmithM.H._Alford2019" class="citation journal cs1">McNair, D.M.; D.Z. Stults; B. Axsmith; M.H. Alford; J.E. Starnes (2019). <a rel="nofollow" class="external text" href="https://palaeo-electronica.org/content/pdfs/906.pdf">"Preliminary investigation of a diverse megafossil floral assemblage from the middle Miocene of southern Mississippi, USA"</a> <span class="cs1-format">(PDF)</span>. <i><a href="/wiki/Palaeontologia_Electronica" title="Palaeontologia Electronica">Palaeontologia Electronica</a></i>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.26879%2F906">10.26879/906</a></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Palaeontologia+Electronica&amp;rft.atitle=Preliminary+investigation+of+a+diverse+megafossil+floral+assemblage+from+the+middle+Miocene+of+southern+Mississippi%2C+USA&amp;rft.date=2019&amp;rft_id=info%3Adoi%2F10.26879%2F906&amp;rft.au=McNair%2C+D.M.&amp;rft.au=D.Z.+Stults&amp;rft.au=B.+Axsmith&amp;rft.au=M.H.+Alford&amp;rft.au=J.E.+Starnes&amp;rft_id=https%3A%2F%2Fpalaeo-electronica.org%2Fcontent%2Fpdfs%2F906.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></span> </li> 
+        <li id="cite_note-FOOTNOTEPathology_note_72008-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-FOOTNOTEPathology_note_72008_8-0">^</a></b></span> <span class="reference-text"><a href="#CITEREFPathology_note_72008">Pathology note 7 2008</a>.</span> </li> 
+        <li id="cite_note-fc-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-fc_9-0">^</a></b></span> <span class="reference-text">
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.forestry.gov.uk/fr/massaria">"Massaria disease"</a>. Forestry Commission<span class="reference-accessdate">. Retrieved <span class="nowrap">November 7,</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Massaria+disease&amp;rft.pub=Forestry+Commission&amp;rft_id=http%3A%2F%2Fwww.forestry.gov.uk%2Ffr%2Fmassaria&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></span> </li> 
+        <li id="cite_note-tt-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-tt_10-0">^</a></b></span> <span class="reference-text">
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.treetree.co.uk/massaria-disease-of-planes.html">"Massaria disease of plane trees"</a>. Treetree<span class="reference-accessdate">. Retrieved <span class="nowrap">November 7,</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Massaria+disease+of+plane+trees&amp;rft.pub=Treetree&amp;rft_id=http%3A%2F%2Fwww.treetree.co.uk%2Fmassaria-disease-of-planes.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></span> </li> 
+        <li id="cite_note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text">
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFAnnalisa2020" class="citation web cs1">Annalisa, Marzano (May 24, 2020). <a rel="nofollow" class="external text" href="https://theconversation.com/amp/walking-talking-and-showing-off-a-history-of-roman-gardens-138902?__twitter_impression=true">"Walking, talking and showing off – a history of Roman gardens"</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Walking%2C+talking+and+showing+off+%E2%80%93+a+history+of+Roman+gardens&amp;rft.date=2020-05-24&amp;rft.aulast=Annalisa&amp;rft.aufirst=Marzano&amp;rft_id=https%3A%2F%2Ftheconversation.com%2Famp%2Fwalking-talking-and-showing-off-a-history-of-roman-gardens-138902%3F__twitter_impression%3Dtrue&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></span> </li> 
+        <li id="cite_note-Beaver-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-Beaver_12-0">^</a></b></span> <span class="reference-text">
+          <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFBeaverBorsarello1995" class="citation book cs1">Beaver, Michael D.; Borsarello, J. F. (1995). <i>Camouflage Uniforms of the Waffen-SS</i>. Schiffer. p.&nbsp;202. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&nbsp;<a href="/wiki/Special:BookSources/978-1-84176-854-0" title="Special:BookSources/978-1-84176-854-0"><bdi>978-1-84176-854-0</bdi></a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Camouflage+Uniforms+of+the+Waffen-SS&amp;rft.pages=202&amp;rft.pub=Schiffer&amp;rft.date=1995&amp;rft.isbn=978-1-84176-854-0&amp;rft.aulast=Beaver&amp;rft.aufirst=Michael+D.&amp;rft.au=Borsarello%2C+J.+F.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></span> </li> 
+       </ol>
+      </div> 
+      <h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=8" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <dl>
+       <dt>
+        Books
+       </dt>
+      </dl> 
+      <ul>
+       <li>
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFNaumann2007" class="citation book cs1">Naumann, Helmut (2007). "Die Platane von Gortyna". In Kämmerer., Thomas Richard (ed.). <i>Studien zu Ritual und Sozialgeschichte im Alten</i> [<i>Orient / Studies on Ritual and Society in the Ancient Near East. Tartuer Symposien 1998–2004</i>]. Berlin, de Gruyter. pp.&nbsp;207–226.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Die+Platane+von+Gortyna&amp;rft.btitle=Studien+zu+Ritual+und+Sozialgeschichte+im+Alten&amp;rft.place=Berlin%2C+de+Gruyter&amp;rft.pages=207-226&amp;rft.date=2007&amp;rft.aulast=Naumann&amp;rft.aufirst=Helmut&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></li> 
+       <li>
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFSunset_Western_Garden_Book1995" class="citation book cs1"><i>Sunset Western Garden Book</i>. 1995. pp.&nbsp;606–607.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Sunset+Western+Garden+Book&amp;rft.pages=606-607&amp;rft.date=1995&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></li>
+      </ul> 
+      <dl>
+       <dt>
+        Journals
+       </dt>
+      </dl> 
+      <ul>
+       <li>
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFFengOhManos2005" class="citation journal cs1">Feng, Y.; Oh, S.H.; Manos, P. S. (2005). "Phylogeny and Historical Biogeography of the Genus Platanus as Inferred From Nuclear and Chloroplast DNA". <i>Systematic Botany</i>. <b>30</b> (4): 786–799. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1600%2F036364405775097851">10.1600/036364405775097851</a>. <a href="/wiki/S2CID_(identifier)" class="mw-redirect" title="S2CID (identifier)">S2CID</a>&nbsp;<a rel="nofollow" class="external text" href="https://api.semanticscholar.org/CorpusID:86021109">86021109</a>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Systematic+Botany&amp;rft.atitle=Phylogeny+and+Historical+Biogeography+of+the+Genus+Platanus+as+Inferred+From+Nuclear+and+Chloroplast+DNA.&amp;rft.volume=30&amp;rft.issue=4&amp;rft.pages=786-799&amp;rft.date=2005&amp;rft_id=info%3Adoi%2F10.1600%2F036364405775097851&amp;rft_id=https%3A%2F%2Fapi.semanticscholar.org%2FCorpusID%3A86021109%23id-name%3DS2CID&amp;rft.aulast=Feng&amp;rft.aufirst=Y.&amp;rft.au=Oh%2C+S.H.&amp;rft.au=Manos%2C+P.+S.&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></li> 
+       <li>
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFNixonPoole2003" class="citation journal cs1">Nixon, K. C.; Poole, J. M. (2003). <a rel="nofollow" class="external text" href="http://webcache.googleusercontent.com/search?q=cache:n9IES08hSxYJ:vivo.library.cornell.edu/entity%3Fhome%3D1%26id%3D4558+platanus+rzedowskii&amp;hl=en&amp;ct=clnk&amp;cd=14">"Revision of the Mexican and Guatemalan species of Platanus (Platanaceae)"</a>. <i>Lundellia</i>. <b>6</b>: 103–137. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="cs1-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.25224%2F1097-993X-6.1.4">10.25224/1097-993X-6.1.4</a></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Lundellia&amp;rft.atitle=Revision+of+the+Mexican+and+Guatemalan+species+of+Platanus+%28Platanaceae%29&amp;rft.volume=6&amp;rft.pages=103-137&amp;rft.date=2003&amp;rft_id=info%3Adoi%2F10.25224%2F1097-993X-6.1.4&amp;rft.aulast=Nixon&amp;rft.aufirst=K.+C.&amp;rft.au=Poole%2C+J.+M.&amp;rft_id=http%3A%2F%2Fwebcache.googleusercontent.com%2Fsearch%3Fq%3Dcache%3An9IES08hSxYJ%3Avivo.library.cornell.edu%2Fentity%253Fhome%253D1%2526id%253D4558%2Bplatanus%2Brzedowskii%26hl%3Den%26ct%3Dclnk%26cd%3D14&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></li>
+      </ul> 
+      <dl>
+       <dt>
+        Web
+       </dt>
+      </dl> 
+      <ul>
+       <li>
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFMerriam_Webster" class="citation cs2"><a rel="nofollow" class="external text" href="http://www.merriam-webster.com/dictionary/sycamore">"Sycamore"</a>, <i>Merriam-Webster Online Dictionary</i><span class="reference-accessdate">, retrieved <span class="nowrap">2009-08-04</span></span></cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=bookitem&amp;rft.atitle=Sycamore&amp;rft.btitle=Merriam-Webster+Online+Dictionary&amp;rft_id=http%3A%2F%2Fwww.merriam-webster.com%2Fdictionary%2Fsycamore&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></li> 
+       <li>
+        <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1067248974"><cite id="CITEREFPathology_note_72008" class="citation web cs1"><a rel="nofollow" class="external text" href="http://www.forestry.gov.uk/pdf/pathology_note07.pdf/$FILE/pathology_note07.pdf">"Pathology note 7"</a> <span class="cs1-format">(PDF)</span>. The Research Agency of the Forestry Commission. 2008.</cite><span title="ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Pathology+note+7&amp;rft.pub=The+Research+Agency+of+the+Forestry+Commission&amp;rft.date=2008&amp;rft_id=http%3A%2F%2Fwww.forestry.gov.uk%2Fpdf%2Fpathology_note07.pdf%2F%24FILE%2Fpathology_note07.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3APlatanus" class="Z3988"></span></li>
+      </ul> 
+      <h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Platanus&amp;action=edit&amp;section=9" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2> 
+      <table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000"> 
+       <tbody>
+        <tr> 
+         <td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/34px-Wikispecies-logo.svg.png" decoding="async" width="34" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/51px-Wikispecies-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/68px-Wikispecies-logo.svg.png 2x" data-file-width="941" data-file-height="1103"></td> 
+         <td class="mbox-text plainlist"><a href="/wiki/Wikispecies" title="Wikispecies">Wikispecies</a> has information related to <i><b><a href="https://species.wikimedia.org/wiki/Special:Search/Platanus" class="extiw" title="wikispecies:Special:Search/Platanus">Platanus</a></b></i>.</td>
+        </tr> 
+       </tbody>
+      </table> 
+      <table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000"> 
+       <tbody>
+        <tr> 
+         <td class="mbox-image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" decoding="async" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376"></td> 
+         <td class="mbox-text plainlist">Wikimedia Commons has media related to <span style="font-weight: bold; font-style: italic;"><a href="https://commons.wikimedia.org/wiki/Category:Platanus" class="extiw" title="commons:Category:Platanus">Platanus</a></span>.</td>
+        </tr> 
+       </tbody>
+      </table> 
+      <ul>
+       <li><a rel="nofollow" class="external text" href="http://www.aranya.co.uk/planes/text/botany.html">Botany of plane trees</a></li> 
+       <li><a rel="nofollow" class="external text" href="https://web.archive.org/web/20050123130552/http://www.botgard.ucla.edu/html/MEMBGNewsletter/Volume5number2/Speakingtheplanetruth.html">A short informal account </a> concentrating on the North American species</li> 
+       <li><i><a rel="nofollow" class="external text" href="http://www.amjbot.org/cgi/content/full/86/11/1523">A developmental and evolutionary analysis of embryology in Platanus (Platanaceae), a basal eudicot</a></i>, abstract of article by Sandra K. Floyd et al. in <i>American Journal of Botany</i>, 1999;86:1523–1537.</li> 
+       <li><a rel="nofollow" class="external text" href="http://www.monumentaltrees.com/en/photos-londonplane/">Photos, measurements, and location details of large plane trees worldwide</a></li>
+      </ul> 
+      <div class="navbox-styles nomobile">
+       <style data-mw-deduplicate="TemplateStyles:r1061467846">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff}.mw-parser-output .navbox-even{background-color:#f7f7f7}.mw-parser-output .navbox-odd{background-color:transparent}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}</style>
+      </div>
+      <div role="navigation" class="navbox" aria-labelledby="Taxon_identifiers" style="padding:3px">
+       <table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+        <tbody>
+         <tr>
+          <th id="Taxon_identifiers" scope="row" class="navbox-group" style="width:1%;text-align: left;"><a href="/wiki/Help:Taxon_identifiers" title="Help:Taxon identifiers">Taxon identifiers</a></th>
+          <td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0">
+           <div style="padding:0 0.25em"> 
+            <ul>
+             <li><span style="white-space:nowrap;"><a href="/wiki/Wikidata" title="Wikidata">Wikidata</a>: <span class="uid"><span class="external"><a href="https://www.wikidata.org/wiki/Q163025" class="extiw" title="wikidata:Q163025">Q163025</a></span></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Wikispecies" title="Wikispecies">Wikispecies</a>: <span class="uid"><span class="external"><a href="https://species.wikimedia.org/wiki/Platanus" class="extiw" title="wikispecies:Platanus">Platanus</a></span></span></span></li> 
+             <li><span style="white-space:nowrap;">APDB: <span class="uid"><a rel="nofollow" class="external text" href="http://www.ville-ge.ch/musinfo/bd/cjb/africa/details.php?langue=an&amp;id=193789">193789</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Australian_Plant_Name_Index" title="Australian Plant Name Index">APNI</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://id.biodiversity.org.au/name/apni/128871">128871</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Encyclopedia_of_Life" title="Encyclopedia of Life">EoL</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://eol.org/pages/59477">59477</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/EPPO_Code" title="EPPO Code">EPPO</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://gd.eppo.int/taxon/1PLTG">1PLTG</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/FloraBase" title="FloraBase">FloraBase</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://florabase.dpaw.wa.gov.au/browse/profile/22617">22617</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Flora_of_North_America" title="Flora of North America">FNA</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://www.efloras.org/florataxon.aspx?flora_id=1&amp;taxon_id=125747">125747</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Flora_of_Australia" title="Flora of Australia">FoAO2</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://profiles.ala.org.au/opus/foa/profile/Platanus">Platanus</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Flora_of_China" title="Flora of China">FoC</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://www.efloras.org/florataxon.aspx?flora_id=2&amp;taxon_id=125747">125747</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Fossilworks" title="Fossilworks">Fossilworks</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://www.fossilworks.org/cgi-bin/bridge.pl?a=taxonInfo&amp;taxon_no=53335">53335</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Global_Biodiversity_Information_Facility" title="Global Biodiversity Information Facility">GBIF</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://www.gbif.org/species/3152811">3152811</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Germplasm_Resources_Information_Network" title="Germplasm Resources Information Network">GRIN</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://npgsweb.ars-grin.gov/gringlobal/taxonomygenus.aspx?id=9494">9494</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/INaturalist" title="INaturalist">iNaturalist</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://www.inaturalist.org/taxa/49664">49664</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/International_Plant_Names_Index" title="International Plant Names Index">IPNI</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://www.ipni.org/ipni/idPlantNameSearch.do?id=32120-1">32120-1</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Interim_Register_of_Marine_and_Nonmarine_Genera" title="Interim Register of Marine and Nonmarine Genera">IRMNG</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://www.irmng.org/aphia.php?p=taxdetails&amp;id=1333608">1333608</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Integrated_Taxonomic_Information_System" title="Integrated Taxonomic Information System">ITIS</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://www.itis.gov/servlet/SingleRpt/SingleRpt?search_topic=TSN&amp;search_value=19019">19019</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/National_Biodiversity_Network" title="National Biodiversity Network">NBN</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://data.nbn.org.uk/Taxa/NHMSYS0000461776">NHMSYS0000461776</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/National_Center_for_Biotechnology_Information" title="National Center for Biotechnology Information">NCBI</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?mode=Info&amp;id=4402">4402</a></span></span></li> 
+             <li><span style="white-space:nowrap;">NZOR: <span class="uid"><a rel="nofollow" class="external text" href="http://www.nzor.org.nz/names/555e6fcb-6f93-4eca-9e08-1a72a2a6a8db">555e6fcb-6f93-4eca-9e08-1a72a2a6a8db</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Natural_Resources_Conservation_Service#Plants" title="Natural Resources Conservation Service">PLANTS</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://plants.sc.egov.usda.gov/home/plantProfile?symbol=PLATA">PLATA</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Plazi" title="Plazi">Plazi</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://treatment.plazi.org/id/BE0E87A3-897C-2654-813F-11D3E87D4A54">BE0E87A3-897C-2654-813F-11D3E87D4A54</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Plants_of_the_World_Online" title="Plants of the World Online">POWO</a>: <span class="uid"><a rel="nofollow" class="external text" href="https://powo.science.kew.org/taxon/urn%3Alsid%3Aipni.org%3Anames%3A32120-1">urn:lsid:ipni.org:names:32120-1</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/Tropicos" title="Tropicos">Tropicos</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://legacy.tropicos.org/Name/40010355">40010355</a></span></span></li> 
+             <li><span style="white-space:nowrap;">VASCAN: <span class="uid"><a rel="nofollow" class="external text" href="http://data.canadensys.net/vascan/taxon/1560">1560</a></span></span></li> 
+             <li><span style="white-space:nowrap;">WoI: <span class="uid"><a rel="nofollow" class="external text" href="http://www.wildflowers.co.il/english/plant.asp?ID=220">220</a></span></span></li> 
+             <li><span style="white-space:nowrap;"><a href="/wiki/World_Flora_Online" title="World Flora Online">WFO</a>: <span class="uid"><a rel="nofollow" class="external text" href="http://www.worldfloraonline.org/taxon/wfo-4000030059">wfo-4000030059</a></span></span></li>
+            </ul> 
+           </div></td>
+         </tr>
+        </tbody>
+       </table>
+      </div> 
+      <div class="navbox-styles nomobile">
+       <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1061467846">
+      </div>
+      <div role="navigation" class="navbox authority-control" aria-labelledby="Authority_control:_National_libraries_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q163025#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" style="padding:3px">
+       <table class="nowraplinks hlist navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+        <tbody>
+         <tr>
+          <th id="Authority_control:_National_libraries_frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit_this_at_Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q163025#identifiers&amp;#124;class=noprint&amp;#124;Edit_this_at_Wikidata" scope="row" class="navbox-group" style="width:1%"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control: National libraries</a> <a href="https://www.wikidata.org/wiki/Q163025#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/10px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" style="vertical-align: text-top" class="noprint" srcset="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/15px-OOjs_UI_icon_edit-ltr-progressive.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png 2x" data-file-width="20" data-file-height="20"></a></th>
+          <td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0">
+           <div style="padding:0 0.25em"> 
+            <ul>
+             <li><span class="uid"><a rel="nofollow" class="external text" href="https://catalogue.bnf.fr/ark:/12148/cb11972128f">France</a> <a rel="nofollow" class="external text" href="https://data.bnf.fr/ark:/12148/cb11972128f">(data)</a></span></li> 
+             <li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4260547-7">Germany</a></span></li> 
+             <li><span class="uid"><a rel="nofollow" class="external text" href="http://uli.nli.org.il/F/?func=find-b&amp;local_base=NLX10&amp;find_code=UID&amp;request=987007550802305171">Israel</a></span></li> 
+             <li><span class="uid"><a rel="nofollow" class="external text" href="https://id.loc.gov/authorities/subjects/sh85102642">United States</a></span></li>
+            </ul> 
+           </div></td>
+         </tr>
+        </tbody>
+       </table>
+      </div> <!-- 
+NewPP limit report
+Parsed by mw1433
+Cached time: 20220501143207
+Cache expiry: 1814400
+Reduced expiry: false
+Complications: [vary‐revision‐sha1]
+CPU time usage: 1.177 seconds
+Real time usage: 1.433 seconds
+Preprocessor visited node count: 15772/1000000
+Post‐expand include size: 91358/2097152 bytes
+Template argument size: 22035/2097152 bytes
+Highest expansion depth: 24/100
+Expensive parser function count: 33/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 38565/5000000 bytes
+Lua time usage: 0.822/10.000 seconds
+Lua memory usage: 16581074/52428800 bytes
+Number of Wikibase entities loaded: 25/400
+--> <!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00% 1309.606      1 -total
+ 31.00%  405.919      1 Template:Automatic_taxobox
+ 20.58%  269.474      1 Template:Taxonbar
+ 12.81%  167.707      1 Template:Fossilrange
+ 11.29%  147.790      2 Template:Lang
+ 10.77%  141.076      1 Template:Phanerozoic_220px
+  9.39%  123.009     38 Template:Period_start
+  8.82%  115.536     11 Template:Fossil_range/bar
+  7.34%   96.143     39 Template:Period_id
+  6.66%   87.266      1 Template:Cite_OED
+--> <!-- Saved in parser cache with key enwiki:pcache:idhash:165261-0!canonical and timestamp 20220501143205 and revision id 1084637245. Serialized with JSON.
+ --> 
+     </div>
+     <noscript>
+      <img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;">
+     </noscript> 
+     <div class="printfooter">
+      Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Platanus&amp;oldid=1084637245">https://en.wikipedia.org/w/index.php?title=Platanus&amp;oldid=1084637245</a>"
+     </div>
+    </div> 
+    <div id="catlinks" class="catlinks" data-mw="interface">
+     <div id="mw-normal-catlinks" class="mw-normal-catlinks">
+      <a href="/wiki/Help:Category" title="Help:Category">Categories</a>: 
+      <ul>
+       <li><a href="/wiki/Category:Platanus" title="Category:Platanus">Platanus</a></li>
+       <li><a href="/wiki/Category:Platanaceae" title="Category:Platanaceae">Platanaceae</a></li>
+       <li><a href="/wiki/Category:Eudicot_genera" title="Category:Eudicot genera">Eudicot genera</a></li>
+      </ul>
+     </div>
+     <div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">
+      Hidden categories: 
+      <ul>
+       <li><a href="/wiki/Category:Articles_containing_Ancient_Greek_(to_1453)-language_text" title="Category:Articles containing Ancient Greek (to 1453)-language text">Articles containing Ancient Greek (to 1453)-language text</a></li>
+       <li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li>
+       <li><a href="/wiki/Category:Short_description_is_different_from_Wikidata" title="Category:Short description is different from Wikidata">Short description is different from Wikidata</a></li>
+       <li><a href="/wiki/Category:Articles_with_%27species%27_microformats" title="Category:Articles with 'species' microformats">Articles with 'species' microformats</a></li>
+       <li><a href="/wiki/Category:Commons_category_link_is_on_Wikidata" title="Category:Commons category link is on Wikidata">Commons category link is on Wikidata</a></li>
+       <li><a href="/wiki/Category:Taxonbars_with_25%E2%80%9329_taxon_IDs" title="Category:Taxonbars with 25–29 taxon IDs">Taxonbars with 25–29 taxon IDs</a></li>
+       <li><a href="/wiki/Category:Articles_with_BNF_identifiers" title="Category:Articles with BNF identifiers">Articles with BNF identifiers</a></li>
+       <li><a href="/wiki/Category:Articles_with_GND_identifiers" title="Category:Articles with GND identifiers">Articles with GND identifiers</a></li>
+       <li><a href="/wiki/Category:Articles_with_J9U_identifiers" title="Category:Articles with J9U identifiers">Articles with J9U identifiers</a></li>
+       <li><a href="/wiki/Category:Articles_with_LCCN_identifiers" title="Category:Articles with LCCN identifiers">Articles with LCCN identifiers</a></li>
+      </ul>
+     </div>
+    </div> 
+   </div> 
+  </div> 
+  <div id="mw-data-after-content"> 
+   <div class="read-more-container"></div> 
+  </div> 
+  <div id="mw-navigation"> 
+   <h2>Navigation menu</h2> 
+   <div id="mw-head"> 
+    <nav id="p-personal" class="mw-portlet mw-portlet-personal vector-user-menu-legacy vector-menu" aria-labelledby="p-personal-label" role="navigation"> <label id="p-personal-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Personal tools</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li id="pt-anonuserpage" class="mw-list-item"><span title="The user page for the IP address you are editing as">Not logged in</span></li>
+       <li id="pt-anontalk" class="mw-list-item"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n"><span>Talk</span></a></li>
+       <li id="pt-anoncontribs" class="mw-list-item"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y"><span>Contributions</span></a></li>
+       <li id="pt-createaccount" class="mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Platanus" title="You are encouraged to create an account and log in; however, it is not mandatory"><span>Create account</span></a></li>
+       <li id="pt-login" class="mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Platanus" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o"><span>Log in</span></a></li>
+      </ul> 
+     </div> 
+    </nav> 
+    <div id="left-navigation"> 
+     <nav id="p-namespaces" class="mw-portlet mw-portlet-namespaces vector-menu vector-menu-tabs" aria-labelledby="p-namespaces-label" role="navigation"> <label id="p-namespaces-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Namespaces</span> </label> 
+      <div class="vector-menu-content"> 
+       <ul class="vector-menu-content-list">
+        <li id="ca-nstab-main" class="selected mw-list-item"><a href="/wiki/Platanus" title="View the content page [c]" accesskey="c"><span>Article</span></a></li>
+        <li id="ca-talk" class="mw-list-item"><a href="/wiki/Talk:Platanus" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+       </ul> 
+      </div> 
+     </nav> 
+     <nav id="p-variants" class="mw-portlet mw-portlet-variants emptyPortlet vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelledby="p-variants-label" role="navigation"> 
+      <input type="checkbox" id="p-variants-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-variants" class="vector-menu-checkbox" aria-labelledby="p-variants-label"> <label id="p-variants-label" aria-label="Change language variant" class="vector-menu-heading "> <span class="vector-menu-heading-label">English</span> </label> 
+      <div class="vector-menu-content"> 
+       <ul class="vector-menu-content-list"></ul> 
+      </div> 
+     </nav> 
+    </div> 
+    <div id="right-navigation"> 
+     <nav id="p-views" class="mw-portlet mw-portlet-views vector-menu vector-menu-tabs" aria-labelledby="p-views-label" role="navigation"> <label id="p-views-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Views</span> </label> 
+      <div class="vector-menu-content"> 
+       <ul class="vector-menu-content-list">
+        <li id="ca-view" class="selected mw-list-item"><a href="/wiki/Platanus"><span>Read</span></a></li>
+        <li id="ca-edit" class="mw-list-item"><a href="/w/index.php?title=Platanus&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li>
+        <li id="ca-history" class="mw-list-item"><a href="/w/index.php?title=Platanus&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+       </ul> 
+      </div> 
+     </nav> 
+     <nav id="p-cactions" class="mw-portlet mw-portlet-cactions emptyPortlet vector-menu-dropdown-noicon vector-menu vector-menu-dropdown" aria-labelledby="p-cactions-label" role="navigation" title="More options"> 
+      <input type="checkbox" id="p-cactions-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-cactions" class="vector-menu-checkbox" aria-labelledby="p-cactions-label"> <label id="p-cactions-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">More</span> </label> 
+      <div class="vector-menu-content"> 
+       <ul class="vector-menu-content-list"></ul> 
+      </div> 
+     </nav> 
+     <div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box"> 
+      <div> 
+       <h3> <label for="searchInput">Search</label> </h3> 
+       <form action="/w/index.php" id="searchform" class="vector-search-box-form"> 
+        <div id="simpleSearch" class="vector-search-box-inner" data-search-loc="header-navigation"> 
+         <input class="vector-search-box-input" type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="sentences" title="Search Wikipedia [f]" accesskey="f" id="searchInput"> 
+         <input type="hidden" name="title" value="Special:Search"> 
+         <input id="mw-searchButton" class="searchButton mw-fallbackSearchButton" type="submit" name="fulltext" title="Search Wikipedia for this text" value="Search"> 
+         <input id="searchButton" class="searchButton" type="submit" name="go" title="Go to a page with this exact name if it exists" value="Go"> 
+        </div> 
+       </form> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div id="mw-panel"> 
+    <div id="p-logo" role="banner"> <a class="mw-wiki-logo" href="/wiki/Main_Page" title="Visit the main page"></a> 
+    </div> 
+    <nav id="p-navigation" class="mw-portlet mw-portlet-navigation vector-menu vector-menu-portal portal" aria-labelledby="p-navigation-label" role="navigation"> <label id="p-navigation-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Navigation</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" icon="home" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li>
+       <li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li>
+       <li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li>
+       <li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" icon="die" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li>
+       <li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li>
+       <li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
+       <li id="n-sitesupport" class="mw-list-item"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us by donating to the Wikimedia Foundation"><span>Donate</span></a></li>
+      </ul> 
+     </div> 
+    </nav> 
+    <nav id="p-interaction" class="mw-portlet mw-portlet-interaction vector-menu vector-menu-portal portal" aria-labelledby="p-interaction-label" role="navigation"> <label id="p-interaction-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Contribute</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" icon="help" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li>
+       <li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li>
+       <li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li>
+       <li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" icon="recentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li>
+       <li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li>
+      </ul> 
+     </div> 
+    </nav> 
+    <nav id="p-tb" class="mw-portlet mw-portlet-tb vector-menu vector-menu-portal portal" aria-labelledby="p-tb-label" role="navigation"> <label id="p-tb-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Tools</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Platanus" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li>
+       <li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Platanus" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li>
+       <li id="t-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li>
+       <li id="t-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li>
+       <li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Platanus&amp;oldid=1084637245" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li>
+       <li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Platanus&amp;action=info" title="More information about this page"><span>Page information</span></a></li>
+       <li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Platanus&amp;id=1084637245&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li>
+       <li id="t-wikibase" class="mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q163025" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+      </ul> 
+     </div> 
+    </nav> 
+    <nav id="p-coll-print_export" class="mw-portlet mw-portlet-coll-print_export vector-menu vector-menu-portal portal" aria-labelledby="p-coll-print_export-label" role="navigation"> <label id="p-coll-print_export-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Print/export</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Platanus&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li>
+       <li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Platanus&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+      </ul> 
+     </div> 
+    </nav> 
+    <nav id="p-wikibase-otherprojects" class="mw-portlet mw-portlet-wikibase-otherprojects vector-menu vector-menu-portal portal" aria-labelledby="p-wikibase-otherprojects-label" role="navigation"> <label id="p-wikibase-otherprojects-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">In other projects</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Platanus" hreflang="en"><span>Wikimedia Commons</span></a></li>
+       <li class="wb-otherproject-link wb-otherproject-species mw-list-item"><a href="https://species.wikimedia.org/wiki/Platanus" hreflang="en"><span>Wikispecies</span></a></li>
+      </ul> 
+     </div> 
+    </nav> 
+    <nav id="p-lang" class="mw-portlet mw-portlet-lang vector-menu vector-menu-portal portal" aria-labelledby="p-lang-label" role="navigation"> <label id="p-lang-label" aria-label="" class="vector-menu-heading "> <span class="vector-menu-heading-label">Languages</span> </label> 
+     <div class="vector-menu-content"> 
+      <ul class="vector-menu-content-list">
+       <li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%AF%D9%84%D8%A8" title="دلب – Arabic" lang="ar" hreflang="ar" class="interlanguage-link-target"><span>العربية</span></a></li>
+       <li class="interlanguage-link interwiki-hyw mw-list-item"><a href="https://hyw.wikipedia.org/wiki/%D5%8F%D5%B6%D5%BB%D6%80%D5%AB_(%D4%BE%D5%A1%D5%BC)" title="Տնջրի (Ծառ) – Western Armenian" lang="hyw" hreflang="hyw" class="interlanguage-link-target"><span>Արեւմտահայերէն</span></a></li>
+       <li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/%C3%87inar" title="Çinar – Azerbaijani" lang="az" hreflang="az" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li>
+       <li class="interlanguage-link interwiki-azb mw-list-item"><a href="https://azb.wikipedia.org/wiki/%DA%86%DB%8C%D9%86%D8%A7%D8%B1_%D8%A2%D8%BA%D8%A7%D8%AC%DB%8C" title="چینار آغاجی – South Azerbaijani" lang="azb" hreflang="azb" class="interlanguage-link-target"><span>تۆرکجه</span></a></li>
+       <li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%D0%BD" title="Платан – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target"><span>Беларуская</span></a></li>
+       <li class="interlanguage-link interwiki-be-x-old mw-list-item"><a href="https://be-tarask.wikipedia.org/wiki/%D0%9F%D0%BB%D1%8F%D1%82%D0%B0%D0%BD" title="Плятан – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" class="interlanguage-link-target"><span>Беларуская (тарашкевіца)</span></a></li>
+       <li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/%D0%A7%D0%B8%D0%BD%D0%B0%D1%80" title="Чинар – Bulgarian" lang="bg" hreflang="bg" class="interlanguage-link-target"><span>Български</span></a></li>
+       <li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Platanus" title="Platanus – Bosnian" lang="bs" hreflang="bs" class="interlanguage-link-target"><span>Bosanski</span></a></li>
+       <li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Platanus" title="Platanus – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target"><span>Català</span></a></li>
+       <li class="interlanguage-link interwiki-ceb mw-list-item"><a href="https://ceb.wikipedia.org/wiki/Platanus" title="Platanus – Cebuano" lang="ceb" hreflang="ceb" class="interlanguage-link-target"><span>Cebuano</span></a></li>
+       <li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Platan" title="Platan – Czech" lang="cs" hreflang="cs" class="interlanguage-link-target"><span>Čeština</span></a></li>
+       <li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Platan" title="Platan – Danish" lang="da" hreflang="da" class="interlanguage-link-target"><span>Dansk</span></a></li>
+       <li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Platanen" title="Platanen – German" lang="de" hreflang="de" class="interlanguage-link-target"><span>Deutsch</span></a></li>
+       <li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Plaatan" title="Plaatan – Estonian" lang="et" hreflang="et" class="interlanguage-link-target"><span>Eesti</span></a></li>
+       <li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%A0%CE%BB%CE%AC%CF%84%CE%B1%CE%BD%CE%BF%CF%82" title="Πλάτανος – Greek" lang="el" hreflang="el" class="interlanguage-link-target"><span>Ελληνικά</span></a></li>
+       <li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Pl%C3%A1tano_de_sombra" title="Plátano de sombra – Spanish" lang="es" hreflang="es" class="interlanguage-link-target"><span>Español</span></a></li>
+       <li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/Platano" title="Platano – Esperanto" lang="eo" hreflang="eo" class="interlanguage-link-target"><span>Esperanto</span></a></li>
+       <li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%DA%86%D9%86%D8%A7%D8%B1" title="چنار – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target"><span>فارسی</span></a></li>
+       <li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Platane" title="Platane – French" lang="fr" hreflang="fr" class="interlanguage-link-target"><span>Français</span></a></li>
+       <li class="interlanguage-link interwiki-ga mw-list-item"><a href="https://ga.wikipedia.org/wiki/Pl%C3%A1na_(crann)" title="Plána (crann) – Irish" lang="ga" hreflang="ga" class="interlanguage-link-target"><span>Gaeilge</span></a></li>
+       <li class="interlanguage-link interwiki-gv mw-list-item"><a href="https://gv.wikipedia.org/wiki/Billey_plaaney" title="Billey plaaney – Manx" lang="gv" hreflang="gv" class="interlanguage-link-target"><span>Gaelg</span></a></li>
+       <li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Platanus" title="Platanus – Galician" lang="gl" hreflang="gl" class="interlanguage-link-target"><span>Galego</span></a></li>
+       <li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EB%B2%84%EC%A6%98%EB%82%98%EB%AC%B4%EC%86%8D" title="버즘나무속 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target"><span>한국어</span></a></li>
+       <li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/%D5%8D%D5%B8%D5%BD%D5%AB" title="Սոսի – Armenian" lang="hy" hreflang="hy" class="interlanguage-link-target"><span>Հայերեն</span></a></li>
+       <li class="interlanguage-link interwiki-hsb mw-list-item"><a href="https://hsb.wikipedia.org/wiki/Platana" title="Platana – Upper Sorbian" lang="hsb" hreflang="hsb" class="interlanguage-link-target"><span>Hornjoserbsce</span></a></li>
+       <li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Vodoklen" title="Vodoklen – Croatian" lang="hr" hreflang="hr" class="interlanguage-link-target"><span>Hrvatski</span></a></li>
+       <li class="interlanguage-link interwiki-io mw-list-item"><a href="https://io.wikipedia.org/wiki/Platano" title="Platano – Ido" lang="io" hreflang="io" class="interlanguage-link-target"><span>Ido</span></a></li>
+       <li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Pohon_berangan" title="Pohon berangan – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li>
+       <li class="interlanguage-link interwiki-os mw-list-item"><a href="https://os.wikipedia.org/wiki/%D0%A7%D1%8A%D0%B0%D0%BD%D0%B4%D0%B0%D1%80%D0%B0" title="Чъандара – Ossetic" lang="os" hreflang="os" class="interlanguage-link-target"><span>Ирон</span></a></li>
+       <li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wikipedia.org/wiki/Platanus" title="Platanus – Icelandic" lang="is" hreflang="is" class="interlanguage-link-target"><span>Íslenska</span></a></li>
+       <li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Platanus" title="Platanus – Italian" lang="it" hreflang="it" class="interlanguage-link-target"><span>Italiano</span></a></li>
+       <li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/%D7%93%D7%95%D7%9C%D7%91_(%D7%A2%D7%A5)" title="דולב (עץ) – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target"><span>עברית</span></a></li>
+       <li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%AD%E1%83%90%E1%83%93%E1%83%90%E1%83%A0%E1%83%98" title="ჭადარი – Georgian" lang="ka" hreflang="ka" class="interlanguage-link-target"><span>ქართული</span></a></li>
+       <li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wikipedia.org/wiki/%D0%A7%D1%8B%D0%BD%D0%B0%D1%80" title="Чынар – Kyrgyz" lang="ky" hreflang="ky" class="interlanguage-link-target"><span>Кыргызча</span></a></li>
+       <li class="interlanguage-link interwiki-lbe mw-list-item"><a href="https://lbe.wikipedia.org/wiki/%D0%A7%D0%B8%D0%BD%D0%B0%D1%80" title="Чинар – Lak" lang="lbe" hreflang="lbe" class="interlanguage-link-target"><span>Лакку</span></a></li>
+       <li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Platanus" title="Platanus – Latin" lang="la" hreflang="la" class="interlanguage-link-target"><span>Latina</span></a></li>
+       <li class="interlanguage-link interwiki-lt mw-list-item"><a href="https://lt.wikipedia.org/wiki/Platanas" title="Platanas – Lithuanian" lang="lt" hreflang="lt" class="interlanguage-link-target"><span>Lietuvių</span></a></li>
+       <li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Plat%C3%A1n" title="Platán – Hungarian" lang="hu" hreflang="hu" class="interlanguage-link-target"><span>Magyar</span></a></li>
+       <li class="interlanguage-link interwiki-arz mw-list-item"><a href="https://arz.wikipedia.org/wiki/%D8%AF%D9%84%D8%A8" title="دلب – Egyptian Arabic" lang="arz" hreflang="arz" class="interlanguage-link-target"><span>مصرى</span></a></li>
+       <li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Plataan" title="Plataan – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target"><span>Nederlands</span></a></li>
+       <li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/%E3%83%97%E3%83%A9%E3%82%BF%E3%83%8A%E3%82%B9" title="プラタナス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target"><span>日本語</span></a></li>
+       <li class="interlanguage-link interwiki-frr mw-list-item"><a href="https://frr.wikipedia.org/wiki/Plataanen" title="Plataanen – Northern Frisian" lang="frr" hreflang="frr" class="interlanguage-link-target"><span>Nordfriisk</span></a></li>
+       <li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Platanslekta" title="Platanslekta – Norwegian Bokmål" lang="nb" hreflang="nb" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li>
+       <li class="interlanguage-link interwiki-oc mw-list-item"><a href="https://oc.wikipedia.org/wiki/Platana" title="Platana – Occitan" lang="oc" hreflang="oc" class="interlanguage-link-target"><span>Occitan</span></a></li>
+       <li class="interlanguage-link interwiki-uz mw-list-item"><a href="https://uz.wikipedia.org/wiki/Chinor" title="Chinor – Uzbek" lang="uz" hreflang="uz" class="interlanguage-link-target"><span>Oʻzbekcha/ўзбекча</span></a></li>
+       <li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Platan" title="Platan – Polish" lang="pl" hreflang="pl" class="interlanguage-link-target"><span>Polski</span></a></li>
+       <li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Pl%C3%A1tano" title="Plátano – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target"><span>Português</span></a></li>
+       <li class="interlanguage-link interwiki-crh mw-list-item"><a href="https://crh.wikipedia.org/wiki/%C3%87%C4%B1nar" title="Çınar – Crimean Tatar" lang="crh" hreflang="crh" class="interlanguage-link-target"><span>Qırımtatarca</span></a></li>
+       <li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%D0%BD" title="Платан – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target"><span>Русский</span></a></li>
+       <li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Rrapi" title="Rrapi – Albanian" lang="sq" hreflang="sq" class="interlanguage-link-target"><span>Shqip</span></a></li>
+       <li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Platanus" title="Platanus – Simple English" lang="en-simple" hreflang="en-simple" class="interlanguage-link-target"><span>Simple English</span></a></li>
+       <li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%D0%BD" title="Платан – Serbian" lang="sr" hreflang="sr" class="interlanguage-link-target"><span>Српски / srpski</span></a></li>
+       <li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/Plataanit" title="Plataanit – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target"><span>Suomi</span></a></li>
+       <li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Platansl%C3%A4ktet" title="Platansläktet – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target"><span>Svenska</span></a></li>
+       <li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/%C3%87%C4%B1nar" title="Çınar – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target"><span>Türkçe</span></a></li>
+       <li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/%D0%9F%D0%BB%D0%B0%D1%82%D0%B0%D0%BD" title="Платан – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target"><span>Українська</span></a></li>
+       <li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/Platanus" title="Platanus – Vietnamese" lang="vi" hreflang="vi" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li>
+       <li class="interlanguage-link interwiki-war mw-list-item"><a href="https://war.wikipedia.org/wiki/Platanus" title="Platanus – Waray" lang="war" hreflang="war" class="interlanguage-link-target"><span>Winaray</span></a></li>
+       <li class="interlanguage-link interwiki-wuu mw-list-item"><a href="https://wuu.wikipedia.org/wiki/%E6%82%AC%E9%93%83%E6%9C%A8%E5%B1%9E" title="悬铃木属 – Wu Chinese" lang="wuu" hreflang="wuu" class="interlanguage-link-target"><span>吴语</span></a></li>
+       <li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E6%82%AC%E9%93%83%E6%9C%A8%E5%B1%9E" title="悬铃木属 – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target"><span>中文</span></a></li>
+      </ul> 
+      <div class="after-portlet after-portlet-lang">
+       <span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q163025#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span>
+      </div> 
+     </div> 
+    </nav> 
+   </div> 
+  </div> 
+  <footer id="footer" class="mw-footer" role="contentinfo"> 
+   <ul id="footer-info"> 
+    <li id="footer-info-lastmod"> This page was last edited on 25 April 2022, at 17:56<span class="anonymous-show">&nbsp;(UTC)</span>.</li> 
+    <li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License 3.0</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>; additional terms may apply. By using this site, you agree to the <a href="//foundation.wikimedia.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//foundation.wikimedia.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li> 
+   </ul> 
+   <ul id="footer-places"> 
+    <li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li> 
+    <li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li> 
+    <li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li> 
+    <li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li> 
+    <li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Platanus&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li> 
+    <li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li> 
+    <li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li> 
+    <li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Cookie_statement">Cookie statement</a></li> 
+   </ul> 
+   <ul id="footer-icons" class="noprint"> 
+    <li id="footer-copyrightico"><a href="https://wikimediafoundation.org/"><img src="/static/images/footer/wikimedia-button.png" srcset="/static/images/footer/wikimedia-button-1.5x.png 1.5x, /static/images/footer/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation" loading="lazy"></a></li> 
+    <li id="footer-poweredbyico"><a href="https://www.mediawiki.org/"><img src="/static/images/footer/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/footer/poweredby_mediawiki_132x47.png 1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x" width="88" height="31" loading="lazy"></a></li> 
+   </ul> 
+  </footer> 
+  <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"1.177","walltime":"1.433","ppvisitednodes":{"value":15772,"limit":1000000},"postexpandincludesize":{"value":91358,"limit":2097152},"templateargumentsize":{"value":22035,"limit":2097152},"expansiondepth":{"value":24,"limit":100},"expensivefunctioncount":{"value":33,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":38565,"limit":5000000},"entityaccesscount":{"value":25,"limit":400},"timingprofile":["100.00% 1309.606      1 -total"," 31.00%  405.919      1 Template:Automatic_taxobox"," 20.58%  269.474      1 Template:Taxonbar"," 12.81%  167.707      1 Template:Fossilrange"," 11.29%  147.790      2 Template:Lang"," 10.77%  141.076      1 Template:Phanerozoic_220px","  9.39%  123.009     38 Template:Period_start","  8.82%  115.536     11 Template:Fossil_range/bar","  7.34%   96.143     39 Template:Period_id","  6.66%   87.266      1 Template:Cite_OED"]},"scribunto":{"limitreport-timeusage":{"value":"0.822","limit":"10.000"},"limitreport-memusage":{"value":16581074,"limit":52428800},"limitreport-logs":"anchor_id_list = table#1 {\n  [\"CITEREFAnnalisa2020\"] = 1,\n  [\"CITEREFBeaverBorsarello1995\"] = 1,\n  [\"CITEREFFengOhManos2005\"] = 1,\n  [\"CITEREFMcNair,_D.M.D.Z._StultsB._AxsmithM.H._Alford2019\"] = 1,\n  [\"CITEREFMerriam_Webster\"] = 1,\n  [\"CITEREFNaumann2007\"] = 1,\n  [\"CITEREFNixonPoole2003\"] = 1,\n  [\"CITEREFPathology_note_72008\"] = 1,\n  [\"CITEREFSunset_Western_Garden_Book1995\"] = 1,\n}\ntemplate_list = table#1 {\n  [\"About\"] = 1,\n  [\"Age\"] = 1,\n  [\"Authority control\"] = 1,\n  [\"Automatic taxobox\"] = 1,\n  [\"Citation\"] = 1,\n  [\"Cite OED\"] = 1,\n  [\"Cite book\"] = 3,\n  [\"Cite journal\"] = 3,\n  [\"Cite web\"] = 4,\n  [\"Commons category\"] = 1,\n  [\"Convert\"] = 1,\n  [\"Fossilrange\"] = 1,\n  [\"IPAc-en\"] = 1,\n  [\"LSJ\"] = 1,\n  [\"Lang\"] = 1,\n  [\"Main\"] = 1,\n  [\"Redirect\"] = 1,\n  [\"Sfn\"] = 5,\n  [\"Sfnref\"] = 3,\n  [\"Short description\"] = 1,\n  [\"Taxonbar\"] = 1,\n  [\"Wikispecies\"] = 1,\n}\narticle_whitelist = table#1 {\n}\n"},"cachereport":{"origin":"mw1433","timestamp":"20220501143207","ttl":1814400,"transientcontent":false}}});});</script> 
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Platanus","url":"https:\/\/en.wikipedia.org\/wiki\/Platanus","sameAs":"http:\/\/www.wikidata.org\/entity\/Q163025","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q163025","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-01-04T19:24:37Z","dateModified":"2022-04-25T17:56:12Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/80\/Plataan_bladeren.jpg","headline":"genus of plants"}</script>
+  <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Platanus","url":"https:\/\/en.wikipedia.org\/wiki\/Platanus","sameAs":"http:\/\/www.wikidata.org\/entity\/Q163025","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q163025","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-01-04T19:24:37Z","dateModified":"2022-04-25T17:56:12Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/8\/80\/Plataan_bladeren.jpg","headline":"genus of plants"}</script> 
+  <script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":157,"wgHostname":"mw1373"});});</script>  
+ </body>
+</html>
