@@ -1,12 +1,4 @@
-import java.io.BufferedWriter;
-import java.io.File;
-import java.io.FileWriter;
-import java.io.IOException;
-import java.rmi.RemoteException;
-import java.rmi.server.UnicastRemoteObject;
-import java.rmi.registry.Registry;
-import java.rmi.registry.LocateRegistry;
-import java.util.*;
+import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class Participant {
@@ -14,10 +6,6 @@ public class Participant {
 
     public Participant() {
         keyValueStore = new ConcurrentHashMap<>();
-    }
-
-    enum Operation {
-        PUT, DELETE, GET
     }
 
     public String vote() {
@@ -35,7 +23,7 @@ public class Participant {
                 + key + ", value: " + val + " to key value store.";
     }
 
-    public String get(int key){
+    public String get(int key) {
         if (!keyValueStore.containsKey(key)) {
             return "Failure. This key does not exist in the key value store. " +
                     "Cannot get value.";
@@ -43,7 +31,7 @@ public class Participant {
         return "Success. The value for key: " + key + " is: " + keyValueStore.get(key) + ".";
     }
 
-    public synchronized String delete(int key){
+    public synchronized String delete(int key) {
         if (!keyValueStore.containsKey(key)) {
             return "Failure. This key " + key +
                     " does not exist in the key value store." +
@@ -54,7 +42,7 @@ public class Participant {
         return "Success. Deleted key: " + key + " from the key value store.";
     }
 
-    public boolean checkForKey(String[] rawOperation){
+    public boolean checkForKey(String[] rawOperation) {
         try {
             Integer.parseInt(rawOperation[1]);
         } catch (NumberFormatException n) {
@@ -70,8 +58,7 @@ public class Participant {
 
         if (!keyValid) {
             messageToClient += "Received malformed request of length " + message.length();
-        }
-        else if (rawOperation[0].equalsIgnoreCase(Operation.PUT.name())) {
+        } else if (rawOperation[0].equalsIgnoreCase(Operation.PUT.name())) {
             messageToClient += put(Integer.parseInt(rawOperation[1]), rawOperation[2]);
         } else if (rawOperation[0].equalsIgnoreCase(Operation.GET.name())) {
             messageToClient += get(Integer.parseInt(rawOperation[1]));
@@ -82,5 +69,9 @@ public class Participant {
         }
 
         return messageToClient;
+    }
+
+    enum Operation {
+        PUT, DELETE, GET
     }
 }
