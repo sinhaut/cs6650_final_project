@@ -1,21 +1,16 @@
 import java.io.*;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
-import java.util.List;
-import java.util.ArrayList;
 import java.sql.Timestamp;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Client {
     private static final String clientLogFilePath = "clientLog.txt";
     private static final String prepopulateFileName = "preload.txt";
-    private static final String operationsFileName = "operations.txt";
 
     public static List<String> getListFromFile(String filePath) throws IOException {
         // Load text file of operations to send to the server into a list of strings.
-        return getStrings(filePath);
-    }
-
-    static List<String> getStrings(String filePath) throws IOException {
         List<String> fileAsList = new ArrayList<>();
         BufferedReader bufferedReader;
         File file = new File(filePath);
@@ -41,11 +36,12 @@ public class Client {
         }
     }
 
-    public static void run(RMIImpl stub, String fileName) throws IOException{
+    public static void run(RMIImpl stub, String fileName) throws IOException {
         Timestamp timestamp = new Timestamp(System.currentTimeMillis());
-        List<String> operationsList = getListFromFile(fileName);
-        for (String operation: operationsList) {
-            String result = stub.handleOperation(operation);
+        List<String> linksList = getListFromFile(fileName);
+
+        for (String link : linksList) {
+            String result = stub.acceptClientRequest(link);
             System.out.println("Response from the RMI-server: \"" + result + "\n");
             writeToClientLog("Time: " + timestamp
                     + " | Response from the RMI server: " + result + "\n");
@@ -66,9 +62,7 @@ public class Client {
             Registry registry = LocateRegistry.getRegistry(host, port);
             RMIImpl stub = (RMIImpl) registry.lookup("RMIImpl");
             run(stub, prepopulateFileName);
-            run(stub, operationsFileName);
-        }
-        catch (Exception e) {
+        } catch (Exception e) {
             System.out.println("RMIClient exception: " + e.getMessage());
             e.printStackTrace();
         }

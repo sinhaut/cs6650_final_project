@@ -1,11 +1,17 @@
 import java.rmi.Remote;
 import java.rmi.RemoteException;
-import java.util.concurrent.atomic.AtomicInteger;
+import java.util.ArrayList;
 
 public interface RMIImpl extends Remote {
-    AtomicInteger commitOrNot() throws RemoteException;
-    void globalAbort(String operation) throws RemoteException;
-    void globalCommit(String operation) throws RemoteException;
-    void writeToCoordinatorLog(String log) throws RemoteException;
-    String handleOperation(String operation) throws RemoteException;
+    String getLinkToCrawl() throws RemoteException;
+
+    String acceptClientRequest(String link) throws RemoteException;
+
+    void writeToDispatcherLog(String log) throws RemoteException; // status update for certain link
+
+    void processResponseCode(String link, Integer responseCode) throws RemoteException;
+
+    void processOutlinksFromSpider(ArrayList<String> outlinksList) throws RemoteException;
+
+    void addToFailedLinks(String link) throws RemoteException;
 }
