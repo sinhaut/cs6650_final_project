@@ -1,1 +1,5 @@
 https://en.wikipedia.org/wiki/Plane
+https://en.wikipedia.org/wiki/Car
+https://en.wikipedia.org/wiki/Boat
+https://en.wikipedia.org/wiki/Rocket
+https://en.wikipedia.org/wiki/Kite

@@ -5,6 +5,10 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
@@ -41,7 +45,16 @@ public class Spider implements SpiderImpl, Runnable {
             Elements allLinks = doc.getElementsByTag("a");
             for (Element link : allLinks) {
                 String absoluteUrl = link.attr("abs:href");
-                tempUrls.add(absoluteUrl);
+                //URL normalize = null; //new URL(absoluteUrl);
+                try {
+                    URL normalize = new URL(absoluteUrl);
+                    URI normalize2 = normalize.toURI().normalize();
+                    absoluteUrl = normalize2.toString();
+                    tempUrls.add(absoluteUrl);
+                } catch (URISyntaxException | MalformedURLException e) {
+                    e.printStackTrace();
+                }
+
             }
             resp.setOutgoingUrls(tempUrls);
             resp.setStatusCode(200); // if this try didn't fail, status code succeeded.
@@ -79,7 +92,7 @@ public class Spider implements SpiderImpl, Runnable {
                 // get url
                 //TODO
                 String url = stub.getLinkToCrawl(this.identifier);
-                stub.ensureSpidersAreAlive();
+                //stub.ensureSpidersAreAlive();
                 try {
                     Logger.log(url);
                     SpiderResponse results = crawl(url);

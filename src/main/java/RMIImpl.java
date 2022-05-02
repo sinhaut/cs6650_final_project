@@ -1,3 +1,4 @@
+import java.net.MalformedURLException;
 import java.rmi.Remote;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ public interface RMIImpl extends Remote {
 
     void processResponseCode(String link, Integer responseCode) throws RemoteException;
 
-    void processOutlinksFromSpider(ArrayList<String> outlinksList) throws RemoteException;
+    void processOutlinksFromSpider(ArrayList<String> outlinksList) throws RemoteException, MalformedURLException;
 
     void addToFailedLinks(String link) throws RemoteException;
 }

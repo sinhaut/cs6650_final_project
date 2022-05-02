@@ -2,6 +2,10 @@ import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.net.MalformedURLException;
+import java.net.URI;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.net.UnknownHostException;
 import java.rmi.AlreadyBoundException;
 import java.rmi.NotBoundException;
@@ -98,7 +102,7 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     /**
      * Write to a log for the dispatcher
      */
-    public void writeToDispatcherLog(String log) throws RemoteException {
+    public synchronized void writeToDispatcherLog(String log) throws RemoteException {
         // Write logs to coordinatorLog.txt for every message sent/received from
         File file = new File(coordinatorLogFilePath);
         try {
@@ -113,9 +117,18 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     /**
      * Receives a list of outlinks from a spider and adds them to queue.
      */
-    public void processOutlinksFromSpider(ArrayList<String> outlinksList) throws RemoteException {
+    public synchronized void processOutlinksFromSpider(ArrayList<String> outlinksList) throws RemoteException, MalformedURLException {
         for (String link : outlinksList) {
-            if (!visitedLinks.contains(link) && !blacklistedLinks.contains(link)) {
+//            URL normalize = new URL(link);
+//            try {
+//                normalize.toURI().normalize();
+//            } catch (URISyntaxException e) {
+//                e.printStackTrace();
+//            }
+//            link = normalize.toString();
+            if (!visitedLinks.contains(link) && !blacklistedLinks.contains(link)
+                    && !queueOfLinksToCrawl.contains(link)) {
+
                 queueOfLinksToCrawl.add(link);
             }
         }
@@ -124,7 +137,7 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     /**
      * On spider IllegalArgumentException, this will throw.
      * */
-    public void addToFailedLinks (String link) throws RemoteException{
+    public synchronized void addToFailedLinks (String link) throws RemoteException{
         this.setOfFailedLinks.add(link);
         Logger.log("Link failed: "+ link);
     }
@@ -132,7 +145,7 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     /**
      * Handle failed urls if they have a non-200 response code.
      */
-    public void processResponseCode(String link, Integer responseCode) throws RemoteException {
+    public synchronized void processResponseCode(String link, Integer responseCode) throws RemoteException {
         if (responseCode != 200) {
             // if the url leads to 2 failures, blacklist it
             if (setOfFailedLinks.contains(link)) {
