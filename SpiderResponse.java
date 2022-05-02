@@ -1,5 +1,8 @@
 import java.util.ArrayList;
 
+/**
+ * Spider response is  a class to handle storing the crawl data responses together neatly.
+ * */
 public class SpiderResponse {
     private String incomingUrl;
     private ArrayList<String> outgoingUrls;
@@ -11,13 +14,6 @@ public class SpiderResponse {
         this.outgoingUrls = new ArrayList<String>();
         this.statusCode = 0; // placeholder
         this.result = "";
-    }
-
-    public SpiderResponse(String incomingUrl, ArrayList<String> outgoingUrls, int statusCode, String result) {
-        this.incomingUrl = incomingUrl;
-        this.outgoingUrls = outgoingUrls;
-        this.statusCode = statusCode;
-        this.result = result;
     }
 
     public String getIncomingUrl() {

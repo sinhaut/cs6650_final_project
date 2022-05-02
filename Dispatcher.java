@@ -133,7 +133,6 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
                 // if it is the first failure, add it to failed set and readd to queue
                 setOfFailedLinks.add(link);
                 queueOfLinksToCrawl.add(link);
-
             }
         }
     }

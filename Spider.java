@@ -53,6 +53,9 @@ public class Spider implements SpiderImpl, Runnable {
         return resp;
     }
 
+    /**
+     * Runs in a thread-friendly fashion.
+     * */
     public void run() {
         try {
 
@@ -66,6 +69,10 @@ public class Spider implements SpiderImpl, Runnable {
         }
     }
 
+    /**
+     * The actual body of the run method.
+     * This will use the Dispatcher RMI to get urls to crawl, then return responses / failures.
+     * */
     public void runSpider() throws RemoteException, NotBoundException, InterruptedException {
         try {
             Registry registry = LocateRegistry.getRegistry();
@@ -98,24 +105,41 @@ public class Spider implements SpiderImpl, Runnable {
 
     }
 
+    /** Kills the spider, breaking it's while(this.running) run loop
+     * */
     public void kill() {
         this.setRunning(false);
     }
 
+    /**
+     * Returns a boolean if the spider is running.
+     * Also works as an awk, as to whether there is a response or not.
+     * */
     public Boolean getRunning() {
         return running;
     }
 
+    /**
+     * Sets whether the spider value is running or not.
+     * */
     public void setRunning(Boolean running) {
         this.running = running;
     }
 
+    /**
+     * This is how a dispatcher will ask if a spider is running.
+     * */
     @Override
     public boolean spiderIsAlive() throws RemoteException {
         return this.getRunning();
     }
 
 
+    /**
+     * Main method for spider. Mainly for testing, and requires Dispatcher to be running.
+     * Dispatcher requires Client to populate the starter urls.
+     * So may as well just run dispatcher, which populates spiders, and client.
+     * */
     public static void main(String[] args) throws IOException {
         Spider spider = new Spider();
 //         TEST CRAWL FOR DEBUGGING
