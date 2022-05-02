@@ -45,14 +45,18 @@ public class Spider implements SpiderImpl, Runnable {
             Elements allLinks = doc.getElementsByTag("a");
             for (Element link : allLinks) {
                 String absoluteUrl = link.attr("abs:href");
-                //URL normalize = null; //new URL(absoluteUrl);
+                if (absoluteUrl.equals("") | !absoluteUrl.contains("wikipedia")) {
+                    continue;
+                }
+                //System.out.println("Processing absoluteurl: " + absoluteUrl);
+
                 try {
                     URL normalize = new URL(absoluteUrl);
                     URI normalize2 = normalize.toURI().normalize();
                     absoluteUrl = normalize2.toString();
                     tempUrls.add(absoluteUrl);
-                } catch (URISyntaxException | MalformedURLException e) {
-                    e.printStackTrace();
+                } catch (URISyntaxException | MalformedURLException ignored) {
+
                 }
 
             }
@@ -89,10 +93,7 @@ public class Spider implements SpiderImpl, Runnable {
             Registry registry = LocateRegistry.getRegistry();
             RMIImpl stub = (RMIImpl) registry.lookup("RMIImpl");
             while (this.running) {
-                // get url
-                //TODO
                 String url = stub.getLinkToCrawl(this.identifier);
-                //stub.ensureSpidersAreAlive();
                 try {
                     Logger.log(url);
                     SpiderResponse results = crawl(url);
@@ -101,7 +102,10 @@ public class Spider implements SpiderImpl, Runnable {
                         Logger.log("Error from " + results.getIncomingUrl() + ". StatusCode: " + results.getStatusCode() + "\n");
                     }
                     stub.processResponseCode(results.getIncomingUrl(), results.getStatusCode());
+
                     stub.processOutlinksFromSpider(results.getOutgoingUrls());
+                    //List<String> a = results.getOutgoingUrls().subList(0, 5);
+                    //stub.processOutlinksFromSpider((ArrayList<String>) a);
                 } catch(IllegalArgumentException e){
                     stub.addToFailedLinks(url);
                 }
