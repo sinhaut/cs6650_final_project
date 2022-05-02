@@ -63,18 +63,24 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
      Add the current link that spider is crawling back to the queueOfLinksToCrawl
      * */
     public void ensureSpidersAreAlive() throws RemoteException {
-        int total = 0;
         int count = 0;
         for (Spider s: spiders) {
-            boolean alive = s.spiderIsAlive();
-            if (alive==true){
+            boolean spiderRunning = s.getRunning();
+            if (spiderRunning==true){
                 count ++;
                 System.out.println("alive");
             }
-            total ++;
-            //TODO: figure out how to check that spider responds
-            //TODO: set a timeout and if it doesn't respond in the timeout, make a new spider
-            //TODO: failed spider's link gets added to the queue again (doesn't get added to the queue)
+        }
+        return count;
+    }
+
+    /*
+    * End the run
+    * */
+
+    public void endRun() throws RemoteException {
+        for (Spider s: spiders) {
+            s.running = false;
         }
     }
 
