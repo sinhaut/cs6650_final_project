@@ -12,4 +12,6 @@ public interface RMIImpl extends Remote {
     void processResponseCode(String link, Integer responseCode) throws RemoteException;
 
     void processOutlinksFromSpider(ArrayList<String> outlinksList) throws RemoteException;
+
+    void addToFailedLinks(String link) throws RemoteException;
 }

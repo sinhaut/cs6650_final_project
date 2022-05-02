@@ -25,6 +25,7 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     public  HashSet<String> setOfFailedLinks;
 
     public boolean running;
+    public Logger logger;
 
     /*
      * Coordinator constructor initializes 5 participant servers and stores them in list.
@@ -37,18 +38,18 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
         this.spiderToLinkMap = new HashMap<>();
         this.setOfFailedLinks = new HashSet<>();
         this.running = true;
+        this.logger = new Logger();
         this.spiders = new ArrayList<Spider>();
 
     }
 
     public void populateSpiders() throws RemoteException {
         int numSpiders = 5;
-//        Registry registry =  LocateRegistry.getRegistry(PORT);
         for (int i = 0; i < numSpiders; i++) {
             Spider spider = new Spider();
             spiders.add(spider);
-            spider.run();
-//            registry.bind("Spider/"+i, spider);
+            Thread t = new Thread(spider);
+            t.start();
         }
     }
 
@@ -67,15 +68,23 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
      * Add the current link that spider is crawling back to the queueOfLinksToCrawl
      */
     public void ensureSpidersAreAlive() throws RemoteException {
+        ArrayList<Spider> deadSpiders = new ArrayList<Spider>();
         for (Spider s : spiders) {
             boolean alive = s.spiderIsAlive();
             if (alive == true) {
-                System.out.println("alive");
+                deadSpiders.add(s);
             }
             //TODO: figure out how to check that spider responds
             //TODO: set a timeout and if it doesn't respond in the timeout, make a new spider
             //TODO: failed spider's link gets added to the queue again (doesn't get added to the queue)
         }
+        for (Spider s : deadSpiders) {
+            s.kill(); // ensures the spider terminates.
+            Spider newSpider = new Spider();
+            spiders.add(newSpider); // replace that spider.
+            newSpider.run(); //
+        }
+
     }
 
     /**
@@ -89,7 +98,7 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
             bufferedWriter.append(log);
             bufferedWriter.close();
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            Logger.log(e.getMessage());
         }
     }
 
@@ -102,6 +111,14 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
                 queueOfLinksToCrawl.add(link);
             }
         }
+    }
+
+    /**
+     * On spider IllegalArgumentException, this will throw.
+     * */
+    public void addToFailedLinks (String link) throws RemoteException{
+        this.setOfFailedLinks.add(link);
+        Logger.log("Link failed: "+ link);
     }
 
     /**
@@ -126,13 +143,12 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
      */
     public String getLinkToCrawl() throws RemoteException {
         // TODO: lock the queue so 1 spider accesses at a time
-//        Lock lock = new ReentrantLock();
-//        lock.lock();
+        Lock lock = new ReentrantLock();
+        lock.lock();
         String topLink = queueOfLinksToCrawl.remove();
         visitedLinks.add(topLink);
         // TODO: add to the spiderToLink hashmap with the spider and the link.
-//        lock.unlock();
-
+        lock.unlock();
         return topLink;
     }
 
@@ -154,14 +170,15 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
             while(dispatcher.queueOfLinksToCrawl.size()==0){
                 TimeUnit.SECONDS.sleep(1); // Wait for client to connect
             }
-            System.out.println("Dispatcher bound to RMI listening to port: " + port);
+            Logger.log("Dispatcher bound to RMI listening to port: " + port);
             dispatcher.populateSpiders(); // creates spiders, puts them to work.
             if (dispatcher.visitedLinks.size() >10) {
-                System.out.println("success");
+                Logger.log("Goodbye. ");
+                dispatcher.running = false;
                 return;
             }
         } catch (Exception e) {
-            System.out.println("Failure: " + e.getMessage());
+            Logger.log("Failure: " + e.getMessage());
             e.printStackTrace();
         }
     }

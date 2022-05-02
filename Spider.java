@@ -13,17 +13,14 @@ import java.util.ArrayList;
 import java.util.concurrent.TimeUnit;
 
 /**
- * Spider is a class that takes a given URL, and returns that URL with either a string http response,
- * or a string error code.
+ * Spider is a class that takes a given URL, and  a http string, status code, outgoing URLS, and the incoming URL.
  */
 public class Spider implements SpiderImpl, Runnable {
-    Boolean running;
-    String host;
-    int port;
-
-
+    public Boolean running;
+    public Logger logger;
     public Spider() {
         this.running = true;
+        this.logger = new Logger();
     }
 
     /**
@@ -34,7 +31,6 @@ public class Spider implements SpiderImpl, Runnable {
     public SpiderResponse crawl(String incomingUrl) throws IOException {
         SpiderResponse resp = new SpiderResponse(incomingUrl);
         try {
-            System.out.println(incomingUrl);
             Document doc = Jsoup.connect(incomingUrl).get();
             // set up spider responses.
             resp.setResult(doc.html());
@@ -59,6 +55,7 @@ public class Spider implements SpiderImpl, Runnable {
 
     public void run() {
         try {
+
             this.runSpider();
         } catch (RemoteException e) {
             throw new RuntimeException(e);
@@ -72,34 +69,37 @@ public class Spider implements SpiderImpl, Runnable {
     public void runSpider() throws RemoteException, NotBoundException, InterruptedException {
         try {
             Registry registry = LocateRegistry.getRegistry();
-            System.out.println("hello" + registry);
             RMIImpl stub = (RMIImpl) registry.lookup("RMIImpl");
-            System.out.println(stub);
             while (this.running) {
                 // get url
+                String url = stub.getLinkToCrawl();
                 try {
-                    String url = stub.getLinkToCrawl();
-                    System.out.println(url);
+                    Logger.log(url);
                     SpiderResponse results = crawl(url);
-                    System.out.println(results);
                     if (results.getStatusCode() > 300 && results.getStatusCode() < 600) {
                         stub.writeToDispatcherLog("Error from " + results.getIncomingUrl() + ". StatusCode: " + results.getStatusCode() + "\n");
+                        Logger.log("Error from " + results.getIncomingUrl() + ". StatusCode: " + results.getStatusCode() + "\n");
                     }
                     stub.processResponseCode(results.getIncomingUrl(), results.getStatusCode());
                     stub.processOutlinksFromSpider(results.getOutgoingUrls());
-                } catch (Exception e) {
+                } catch(IllegalArgumentException e){
+                    stub.addToFailedLinks(url);
+                }
+                catch (Exception e) {
                     e.printStackTrace();
                 }
-                TimeUnit.SECONDS.sleep(1);
+                TimeUnit.SECONDS.sleep(1); // Wikipedia doesn't like being DDOSed.
             }
-        } catch (Exception e) {
+        }
+
+        catch (Exception e) {
             e.printStackTrace();
         }
 
     }
 
     public void kill() {
-        this.running = false;
+        this.setRunning(false);
     }
 
     public Boolean getRunning() {
@@ -118,15 +118,15 @@ public class Spider implements SpiderImpl, Runnable {
 
     public static void main(String[] args) throws IOException {
         Spider spider = new Spider();
-        System.out.println("Alive");
 //         TEST CRAWL FOR DEBUGGING
-//        SpiderResponse spiderResponse = spider.crawl("https://en.wikipedia.org/wiki/Emmanuel_Macron");
-//        System.out.println(spiderResponse.getIncomingUrl());
-//        System.out.println(spiderResponse.getResult());
-//        System.out.println(spiderResponse.getStatusCode());
-//        for (int i = 0; i < spiderResponse.getOutgoingUrls().size(); i++) {
-//            System.out.println(spiderResponse.getOutgoingUrls().get(i) + " ");
-//        }
+//          THIS WILL NOT WORK WITHOUT A RUNNING DISPATCHER.
+        SpiderResponse spiderResponse = spider.crawl("https://en.wikipedia.org/wiki/Emmanuel_Macron");
+        Logger.log(spiderResponse.getIncomingUrl());
+        Logger.log(spiderResponse.getResult());
+        Logger.log(Integer.toString(spiderResponse.getStatusCode()));
+        for (int i = 0; i < spiderResponse.getOutgoingUrls().size(); i++) {
+            Logger.log(spiderResponse.getOutgoingUrls().get(i) + " ");
+        }
 
         // Establish a server connection given a host and port
         //int port = Integer.parseInt(args[1]);
@@ -140,7 +140,7 @@ public class Spider implements SpiderImpl, Runnable {
         try {
             spider.run();
         } catch (Exception e) {
-            System.out.println("RMIClient exception: " + e.getMessage());
+            Logger.log("RMIClient exception: " + e.getMessage());
             e.printStackTrace();
         }
     }
