@@ -58,3 +58,9 @@ Time: 2022-05-02 13:05:19.577 | Response from the RMI server: Successfully added
 Time: 2022-05-02 13:05:19.577 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Boat to the queue of links to crawl.
 Time: 2022-05-02 13:05:19.577 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Rocket to the queue of links to crawl.
 Time: 2022-05-02 13:05:19.577 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Kite to the queue of links to crawl.
+Time: 2022-05-02 14:07:39.722 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Plane to the queue of links to crawl.
+Time: 2022-05-02 14:07:39.722 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Car to the queue of links to crawl.
+Time: 2022-05-02 14:07:39.722 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Boat to the queue of links to crawl.
+Time: 2022-05-02 14:07:39.722 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Rocket to the queue of links to crawl.
+Time: 2022-05-02 14:07:39.722 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Kite to the queue of links to crawl.
+Time: 2022-05-02 14:09:02.748 | Response from the RMI server: Successfully added https://en.wikipedia.org/wiki/Plane to the queue of links to crawl.

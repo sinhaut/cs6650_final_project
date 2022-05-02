@@ -10,6 +10,8 @@ import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
 import java.rmi.server.UnicastRemoteObject;
 import java.util.*;
+import java.util.concurrent.BlockingQueue;
+import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
@@ -18,21 +20,22 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     public static final String coordinatorLogFilePath = "coordinatorLogs.txt";
     public static int PORT = 1099;
     public  ArrayList<Spider> spiders;
-    public  Queue<String> queueOfLinksToCrawl;
+    public BlockingQueue<String> queueOfLinksToCrawl;
     public  ArrayList<String> visitedLinks;
     public  ArrayList<String> blacklistedLinks;
-    public  HashMap<Spider, String> spiderToLinkMap;
+    public  HashMap<Integer, String> spiderToLinkMap;
     public  HashSet<String> setOfFailedLinks;
 
     public boolean running;
     public Logger logger;
+    public int spiderIdentifier;
 
     /*
      * Coordinator constructor initializes 5 participant servers and stores them in list.
      * */
     public Dispatcher() throws RemoteException {
         super();
-        this.queueOfLinksToCrawl = new LinkedList<>();
+        this.queueOfLinksToCrawl = new LinkedBlockingQueue<>();
         this.visitedLinks = new ArrayList<>();
         this.blacklistedLinks = new ArrayList<>();
         this.spiderToLinkMap = new HashMap<>();
@@ -40,17 +43,20 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
         this.running = true;
         this.logger = new Logger();
         this.spiders = new ArrayList<Spider>();
+        this.spiderIdentifier = 0;
+
 
     }
 
     public void populateSpiders() throws RemoteException {
         int numSpiders = 5;
         for (int i = 0; i < numSpiders; i++) {
-            Spider spider = new Spider();
+            Spider spider = new Spider(i);
             spiders.add(spider);
             Thread t = new Thread(spider);
-            t.start();
+            t.start(); //spiders start working
         }
+        this.spiderIdentifier = spiders.size();
     }
 
     /**
@@ -70,8 +76,9 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     public void ensureSpidersAreAlive() throws RemoteException {
         ArrayList<Spider> deadSpiders = new ArrayList<Spider>();
         for (Spider s : spiders) {
-            boolean alive = s.spiderIsAlive();
-            if (alive == true) {
+//            boolean alive = s.spiderIsAlive();
+            boolean alive = s.getRunning();
+            if (!alive) {
                 deadSpiders.add(s);
             }
             //TODO: figure out how to check that spider responds
@@ -80,7 +87,8 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
         }
         for (Spider s : deadSpiders) {
             s.kill(); // ensures the spider terminates.
-            Spider newSpider = new Spider();
+            this.spiderIdentifier ++;
+            Spider newSpider = new Spider(this.spiderIdentifier);
             spiders.add(newSpider); // replace that spider.
             newSpider.run(); //
         }
@@ -140,14 +148,16 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
     /**
      * Returns the link from the top of the queue to a spider to crawl the link.
      */
-    public String getLinkToCrawl() throws RemoteException {
+    public synchronized String getLinkToCrawl(int id) throws RemoteException {
         // TODO: lock the queue so 1 spider accesses at a time
-        Lock lock = new ReentrantLock();
-        lock.lock();
+//        Lock lock = new ReentrantLock();
+//        lock.lock();
         String topLink = queueOfLinksToCrawl.remove();
         visitedLinks.add(topLink);
         // TODO: add to the spiderToLink hashmap with the spider and the link.
-        lock.unlock();
+        spiderToLinkMap.put(id, topLink);
+
+//        lock.unlock();
         return topLink;
     }
 
@@ -171,10 +181,14 @@ public class Dispatcher extends UnicastRemoteObject implements RMIImpl {
             }
             Logger.log("Dispatcher bound to RMI listening to port: " + port);
             dispatcher.populateSpiders(); // creates spiders, puts them to work.
+            //dispatcher.
             if (dispatcher.visitedLinks.size() >10) {
                 Logger.log("Goodbye. ");
+                dispatcher.killSpiders();
                 dispatcher.running = false;
-                return;
+                System.out.println("Spiders killed and dispatcher is no longer running. Exiting");
+                System.exit(0);
+                //return;
             }
         } catch (Exception e) {
             Logger.log("Failure: " + e.getMessage());

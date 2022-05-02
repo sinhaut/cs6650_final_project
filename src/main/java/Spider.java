@@ -18,9 +18,11 @@ import java.util.concurrent.TimeUnit;
 public class Spider implements SpiderImpl, Runnable {
     public Boolean running;
     public Logger logger;
-    public Spider() {
+    public int identifier;
+    public Spider(int id) {
         this.running = true;
         this.logger = new Logger();
+        this.identifier = id;
     }
 
     /**
@@ -60,11 +62,7 @@ public class Spider implements SpiderImpl, Runnable {
         try {
 
             this.runSpider();
-        } catch (RemoteException e) {
-            throw new RuntimeException(e);
-        } catch (NotBoundException e) {
-            throw new RuntimeException(e);
-        } catch (InterruptedException e) {
+        } catch (RemoteException | NotBoundException | InterruptedException e) {
             throw new RuntimeException(e);
         }
     }
@@ -79,7 +77,9 @@ public class Spider implements SpiderImpl, Runnable {
             RMIImpl stub = (RMIImpl) registry.lookup("RMIImpl");
             while (this.running) {
                 // get url
-                String url = stub.getLinkToCrawl();
+                //TODO
+                String url = stub.getLinkToCrawl(this.identifier);
+                stub.ensureSpidersAreAlive();
                 try {
                     Logger.log(url);
                     SpiderResponse results = crawl(url);
@@ -141,7 +141,7 @@ public class Spider implements SpiderImpl, Runnable {
      * So may as well just run dispatcher, which populates spiders, and client.
      * */
     public static void main(String[] args) throws IOException {
-        Spider spider = new Spider();
+        Spider spider = new Spider(1);
 //         TEST CRAWL FOR DEBUGGING
 //          THIS WILL NOT WORK WITHOUT A RUNNING DISPATCHER.
         SpiderResponse spiderResponse = spider.crawl("https://en.wikipedia.org/wiki/Emmanuel_Macron");
